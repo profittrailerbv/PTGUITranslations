@@ -2,7 +2,7 @@
 Translate the ProfitTrailer GUI 
 
 1. Fork this project
-2. Go to local
+2. Go to locales
 3. Choose your language
 4. Make the changes 
 5. Submit a pull request
