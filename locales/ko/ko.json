@@ -912,7 +912,7 @@
     "ajaxError": "프로핏 트레일러에서 데이터를 새로 고치는 중 오류가 발생했습니다.<br>연결을 확인하십시오.<br>연결 상태가 양호하면 페이지를 새로고치고 한 잔 하세요.",
     "processingError": "프로핏 트레일러에서 데이터를 처리하는 도중 오류가 발생했습니다.<br>프로핏 트레일러에게 약간의 사랑을 주세요.<br>커피 한 잔 하고 오면 곧 잘 될거에요",
     "configSuccess": "데이터를 성공적으로 저장했습니다.",
-    "configNotSave": "변경한 내용은 저장되지 않습니다.<br>정말로 페이지를 떠나시겠습니까?",
+    "configNotSave": "변경한 내용은 저장되지 않습니다. 정말로 페이지를 떠나시겠습니까?",
     "onPassword": "켜짐",
     "offPassword": "꺼짐",
     "onConfig": "켜짐",
@@ -988,7 +988,7 @@
     "errorswitching": "설정 교체 오류.",
     "endPointNotImplemented": "ENDPOINT 가 아직 구현 안됨: ",
     "cancelledOrderNumber": "주문번호 {{orderNumber}} 취소됨",
-    "unsavedChangesOnThisTab": "이 탬에 저장하지 않은 변경 사항이 있습니다.<br>지금 변경사항을 저장하거나<br>취소를 눌러 돌아갈 수 있습니다.",
+    "unsavedChangesOnThisTab": "이 탬에 저장하지 않은 변경 사항이 있습니다. 지금 변경사항을 저장하거나 취소를 눌러 돌아갈 수 있습니다.",
     "copiedToNewConfig": "현재 수정중인 ({{editingConfig}}) 설정은 새로운 이 설정으로 복사될 것입니다."
   },
   "currencyNames": {
