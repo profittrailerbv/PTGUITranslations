@@ -28,6 +28,7 @@
     "news": "뉴스",
     "shorting": "단축",
     "proTools": "PRO 기능",
+    "stats": "통계",
     "activeConfig": "현재 설정",
     "otherConfigs": "다른 설정"
   },
@@ -39,10 +40,10 @@
     "totalLog": "전체 로그"
   },
   "configOptions": {
-    "pairs": "Pairs",
-    "dca": "DCA",
-    "indicators": "Indicators",
-    "hotConfig": "HotConfig",
+    "pairs": "Pairs 설정",
+    "dca": "DCA 설정",
+    "indicators": "지표 설정",
+    "hotConfig": "빠른 설정",
     "default": "DEFAULT",
     "notSaved": "저장 안됨!"
   },
@@ -120,9 +121,9 @@
       "label": "TD"
     },
     "trend": {
-      "title": "추세",
+      "title": "지난 24 시간",
       "label": "T",
-      "suffix": " 지난 24 시간!"
+      "suffix": " 추세!"
     },
     "imageTitles": {
       "fullScreen": "전체화면"
@@ -133,7 +134,7 @@
     "active": "활성화",
     "reset": "초기화",
     "uptime": {
-      "title": "ProfitTrailer 의 구동 시간",
+      "title": "프로핏 트레일러 의 구동 시간",
       "label": "구동 시간: "
     },
     "chngePswrd": {
@@ -141,16 +142,16 @@
       "title": "비밀번호를 변경하려면 \"{{ role }}\" 권한이 있어야 합니다."
     },
     "noPswrdAndConfig": {
-      "title": "이 기능을 사용하려면 application 파일에서 password 와 config 옵션을 활성화 하세요."
+      "title": "이 기능을 사용하려면 application.properties 파일에서 password와 config 옵션을 활성화 하세요."
     },
     "noEnableShutdown": {
-      "title": "이 기능을 사용하려면 application 파일에서 password/shutdown 옵션을 활성화 하세요."
+      "title": "이 기능을 사용하려면 application.properties 파일에서 password와 shutdown 옵션을 활성화 하세요."
     },
     "incorrectRole": {
       "title": "이 버튼을 사용하려면 Admin 으로 로그인하세요."
     },
     "noPswrd": {
-      "title": "이 기능을 사용하려면 application 파일에서 password 옵션을 활성화 하세요."
+      "title": "이 기능을 사용하려면 application.properties 파일에서 password 옵션을 활성화 하세요."
     },
     "market": {
       "label": "마켓: ",
@@ -161,11 +162,11 @@
     },
     "config": {
       "label": "설정: ",
-      "title": "Application 파일에서 변경 가능"
+      "title": "application.properties 파일에서 변경 가능"
     },
     "password": {
       "label": "비밀번호: ",
-      "title": "Application 파일에서 변경 가능"
+      "title": "application.properties 파일에서 변경 가능"
     },
     "som": {
       "label": "SOM: "
@@ -194,7 +195,7 @@
     },
     "time": {
       "label": "시간: ",
-      "title": "현지시간"
+      "title": "현지 시간"
     },
     "utc": {
       "title": "거래소 서버 시간 / UTC",
@@ -228,14 +229,14 @@
       "title": "CoinGecko 상위 5 코인"
     },
     "volume": {
-      "label": "볼륨"
+      "label": "거래량"
     },
     "trade": {
       "label": "거래"
     },
     "globalMarket": {
       "totalMarketCap": "총 시가총액",
-      "total24HrsVol": "총 24 시간 볼륨",
+      "total24HrsVol": "총 24 시간 거래량",
       "bitcoinMarketCap": "비트코인 시가총액 %",
       "title": "CoinGecko - 시가총액 정보"
     },
@@ -307,7 +308,7 @@
     "pot": {
       "title": "매도대기 시간",
       "label": "POT:",
-      "pwTitle": "Application 파일에서 수정 가능",
+      "pwTitle": "application.properties 파일에서 수정 가능",
       "pwText": "비번:",
       "conText": "설정:",
       "somText": "SOM:",
@@ -385,8 +386,8 @@
       "colTitle": "주문 가격"
     },
     "vol": {
-      "colName": "볼륨",
-      "colTitle": "볼륨"
+      "colName": "거래량",
+      "colTitle": "거래량"
     },
     "currBB": {
       "colName": "현재 BB",
@@ -519,8 +520,8 @@
       "colTitle": "매수 가격"
     },
     "volume": {
-      "colName": "볼륨",
-      "colTitle": "볼륨"
+      "colName": "거래량",
+      "colTitle": "거래량"
     },
     "buyType": {
       "colName": "매수 타입",
@@ -581,8 +582,8 @@
       "colTitle": "트리거"
     },
     "vol": {
-      "colName": "볼륨",
-      "colTitle": "볼륨"
+      "colName": "거래량",
+      "colTitle": "거래량"
     },
     "totalAmount": {
       "colName": "TAM",
@@ -672,8 +673,8 @@
       "colTitle": "수익 및 호가창 수익 %"
     },
     "vol": {
-      "colName": "볼륨",
-      "colTitle": "볼륨"
+      "colName": "거래량",
+      "colTitle": "거래량"
     },
     "totalAmount": {
       "colName": "TAM",
@@ -796,7 +797,7 @@
     },
     "profitUSD": {
       "colName": "수익 <span class='api-market'></span>",
-      "colTitle": "마켓과 KRW 수익 "
+      "colTitle": "마켓과 USD 수익 "
     },
     "soldAmount": {
       "colName": "SAM",
@@ -863,8 +864,8 @@
       "colTitle": "트리거 값 %"
     },
     "vol": {
-      "colName": "볼륨",
-      "colTitle": "볼륨"
+      "colName": "거래량",
+      "colTitle": "거래량"
     },
     "totalAmount": {
       "colName": "TAM",
@@ -929,7 +930,7 @@
     "somtrue": "켜짐",
     "somfalse": "꺼짐",
     "somotrue": "활성화",
-    "somofalse": "비황설화",
+    "somofalse": "비활성화",
     "search": "검색",
     "newButton": "새로운 설정",
     "publishButton": "발행",
@@ -956,7 +957,7 @@
     "switchConfigText": "이 작업은 거래 중인 봇의 설정을 즉시 변경하게 됩니다. ",
     "confirmText": "네, 활성화 합니다 ",
     "switchedText": "변경 완료!",
-    "hotConfig": "Hot Config 명령어 입력 ",
+    "hotConfig": "HotConfig 명령어 입력 ",
     "inputPlaceholder": "명령어를 입력하세요.",
     "submitBtn": "전송",
     "sent": "보냄",
@@ -1178,7 +1179,7 @@
     "shrink": "Shrink",
     "blacklist": "Blacklist",
     "anderson": "ANDERSON",
-    "dcaEnabled": "DCA Enabled",
+     "dcaEnabled": "DCA Enabled",
     "hmacrosscandles": "HMA Cross Candles",
     "hmacandleperiod": "HMA Candle Period",
     "hmafastlength": "HMA Fast Length",
