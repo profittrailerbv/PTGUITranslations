@@ -2,10 +2,14 @@
   "logo": {
     "profit": "Profit",
     "trailer": "Trailer"
++    "profit": "بروفت",
++    "trailer": "تريلر"
   },
   "dtMsgs": {
     "noRecords": "No records found.",
     "totalRecords": "Total records",
++   "noRecords": "لا يوجد سجلات.",
++   "totalRecords": "مجموع السجلات",
     "excel": "Excel",
     "search": "Search",
     "showEntries": "Show _MENU_ entries",
@@ -13,6 +17,12 @@
     "previous": "Previous",
     "next": "Next",
     "filtered": "(filtered from _MAX_ total records)"
+   + "search": "بحث",
+   + "showEntries": "إظهار_ إدخالات_ القائمة",
+   + "all": "الكل",
+   + "previous": "السابق",
+   + "next": "التالى",
+   + "filtered": "(مصفى من_MAX_مجموع السجلات)"
   },
   "sidebar": {
     "monitoring": "Monitor",
