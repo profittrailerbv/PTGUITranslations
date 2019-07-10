@@ -1,22 +1,12 @@
 {
   "logo": {
-    "profit": "Profit",
-    "trailer": "Trailer"
     "profit": "بروفت",
     "trailer": "تريلر"
   },
   "dtMsgs": {
-    "noRecords": "No records found.",
-    "totalRecords": "Total records",
    "noRecords": "لا يوجد سجلات.",
    "totalRecords": "مجموع السجلات",
     "excel": "Excel",
-    "search": "Search",
-    "showEntries": "Show _MENU_ entries",
-    "all": "all",
-    "previous": "Previous",
-    "next": "Next",
-    "filtered": "(filtered from _MAX_ total records)"
     "search": "بحث",
     "showEntries": "إظهار_ إدخالات_ القائمة",
     "all": "الكل",
@@ -26,201 +16,201 @@
   },
   "sidebar": {
     "monitoring": "العرض",
-    "possibleBuyLog": "Possible Buy",
-    "pairsLog": "Pairs",
+    "possibleBuyLog": "الشراء الممكن",
+    "pairsLog": "أزواج",
     "dcaLog": "DCA",
-    "pendingLog": "Pending",
-    "salesLog": "Sales",
+    "pendingLog": "المعلق",
+    "salesLog": "مبيعات",
     "dustLog": "Dust",
-    "config": "Config",
-    "buyLog": "Buy",
-    "apiLogs": "Logs",
-    "news": "News",
-    "shorting": "Shorting",
+    "config": "الإعدادات",
+    "buyLog": "شراء",
+    "apiLogs": "سجلات",
+    "news": "أخبار",
+    "shorting": "البيع على المكشوف",
     "proTools": "Pro",
-    "activeConfig" : "Active Config",
-    "otherConfigs" : "Other Configs"
+    "activeConfig" : "الإعدادات المفعلة",
+    "otherConfigs" : "الإعدادات الاخرى"
   },
   "news": {
-    "postedOn": "Posted on"
+    "postedOn": "نشر على"
   },
   "pageHeadings": {
-    "configuration": "Configuration",
-    "totalLog": "Total Log"
+    "configuration": "الإعدادات",
+    "totalLog": "السجل الكامل"
   },
   "configOptions": {
-    "pairs": "Pairs",
+    "pairs": "أزواج",
     "dca": "DCA",
-    "indicators": "Indicators",
+    "indicators": "المؤشرات",
     "hotConfig": "HotConfig",
     "default": "DEFAULT",
-    "notSaved": "NOT Saved!"
+    "notSaved": "لم يتم الحفظ!"
   },
   "proTools": {
-    "dashboard": "Dashboard",
-    "dcaCalculator": "Calculator"
+    "dashboard": "الوجة الرئيسية",
+    "dcaCalculator": "الالة الحاسبة"
   },
   "dailyProfitTable" : {
     "date": {
-      "colTitle": "Date",
-      "colName": "Date"
+      "colTitle": "التاريخ",
+      "colName": "التاريخ"
     },
     "sells": {
-      "colTitle": "Sells",
-      "colName": "Sells"
+      "colTitle": "المبيعات",
+      "colName": "المبيعات"
     },
     "boughtCost": {
-      "colTitle": "Bought Cost",
-      "colName": "Bought Cost"
+      "colTitle": "تكلفة الشراء",
+      "colName": "تكلفة الشراء"
     },
     "soldValue": {
-      "colTitle": "Sold Value",
-      "colName": "Sold Value"
+      "colTitle": "قيمة البيع",
+      "colName": "قيمة البيع"
     },
     "profits": {
-      "colTitle": "Profits",
-      "colName": "Profits"
+      "colTitle": "الأرباح",
+      "colName": "الأرباح"
     },
     "profitPerc": {
-      "colTitle": "Profit %",
-      "colName": "Profit %"
+      "colTitle": "الأرباح٪",
+      "colName": "الأرباح٪"
     }
   },
   "summaryItems": {
     "balance": {
-      "title": "Balance",
-      "label": "BAL"
+      "title": "الرصيد",
+      "label": "الرصيد"
     },
     "testMode": {
-      "label": "TESTMODE"
+      "label": "وضع الاختبار"
     },
     "testNet": {
-      "label": "TESTNET"
+      "label": "شبكة الاختبار"
     },
     "NotAvailable": {
       "label": "N/A"
     },
     "price": {
-      "title": "Price",
-      "label": "Price"
+      "title": "السعر",
+      "label": "السعر"
     },
     "tcv": {
-      "title": "Total Current Value",
+      "title": "إجمالي القيمة الحالية",
       "label": "TCV"
     },
     "sb": {
-      "title": "Start Balance",
+      "title": "الرصيد المبتدأ به",
       "label": "SB"
     },
     "profit": {
-      "title": "Profit",
+      "title": "الربح",
       "label": "P",
-      "fullText": "Profit"
+      "fullText": "الربح"
     },
     "lw": {
-      "title": "Profit Last Week",
+      "title": "أرباح الأسبوع الماضي",
       "label": "LW"
     },
     "yd": {
-      "title": "Profit Yesterday",
+      "title": "أرباح أمس",
       "label": "YD"
     },
     "td": {
-      "title": "Profit Today",
+      "title": "أرباح اليوم",
       "label": "TD"
     },
     "trend": {
-      "title": "Trend",
+      "title": "اتجاه",
       "label": "T",
-      "suffix": " last 24 Hours!"
+      "suffix": " أخر 24 ساعه!"
     },
     "imageTitles": {
-      "fullScreen": "Fullscreen"
+      "fullScreen": "تكبير الشاشة"
     },
-    "updated": "Updated {{- timeAgo}}"
+    "updated": "اخر تحديث {{- timeAgo}}"
   },
   "settingInfo": {
-    "active": "Active",
-    "reset": "Reset",
+    "active": "المفعل",
+    "reset": "إعادة الضبط",
     "uptime": {
-      "title": "Uptime of ProfitTrailer",
-      "label": "Uptime: "
+      "title": "مدة تشغيل بروفت تريلر",
+      "label": "مدة التشغيل:"
     },
     "chngePswrd": {
-      "label": "Change Passwords",
-      "title": "Role should be \"{{ role }}\" to change passwords."
+      "label": "تغيير كلمات السر",
+      "title": "يجب أن يكون الدور \"{{ role }}\" لتغيير كلمات السر."
     },
     "noPswrdAndConfig": {
-      "title": "Please enable password/config in your application file to enable this function."
+      "title": "الخاص بك لتمكين هذه الوظيفة application يرجى تمكين كلمة السر / الإعداد في ملف."
     },
     "noEnableShutdown": {
-      "title": "Please enable password/shutdown in your application file to enable this function."
+      "title": " الخاص بك لتمكين هذه الوظيفة application يرجى تمكين كلمة السر / إغلاق في ملف."
     },
     "incorrectRole": {
-      "title": "Login in as Admin to get access to these buttons."
+      "title": "للوصول إلى هذه الأزرار Adminسجيل الدخول في ك"
     },
     "noPswrd": {
-      "title": "Please enable password in your application file to enable this function."
+      "title": " الخاص بك لتمكين هذه الوظيفة application يرجى تمكين كلمة السر في ملف "
     },
     "market": {
-      "label": "Market: ",
-      "title": "Your Exchange and Coin"
+      "label": "السوق: ",
+      "title": "البورصة الخاصة بك و عملتك"
     },
     "currency": {
-      "title": "Currency"
+      "title": "عملة"
     },
     "config": {
-      "label": "Config: ",
-      "title": "Can be changed in Application file"
+      "label": "أعدادات: ",
+      "title": "يمكن تغييرها في ملف Application"
     },
     "password": {
-      "label": "Password: ",
-      "title": "Can be changed in Application file"
+      "label": "كلمه السر: ",
+      "title": "يمكن تغييرها في ملف Application"
     },
     "som": {
       "label": "SOM: "
     },
     "somOnOff": {
       "label": "SOM",
-      "subLabel": "SOM Inactive/Active",
-      "title": "Sell Only Mode"
+      "subLabel": "SOM مفعل/غير مفعل",
+      "title": "وضع البيع فقط"
     },
     "somo": {
       "label": "SOMO: ",
-      "title": "Sell Only Mode Override"
+      "title": "تجاوز وضع البيع فقط"
     },
     "heartbeats": {
-      "label": "Heartbeats"
+      "label": "نبضات القلب"
     },
     "settings": {
-      "label": "Settings"
+      "label": "الإعدادات"
     },
     "somoOnOff": {
       "label": "SOMO",
-      "subLabel": "SOMO Inactive/Active",
-      "optionOne": "Disabled",
-      "optionTwo": "Forced ON",
-      "optionThree": "Forced OFF"
+      "subLabel": "SOMO مفعل/غير مفعل",
+      "optionOne": "معاق",
+      "optionTwo": "ON أجبر ألإعداد ",
+      "optionThree": "OFF أجبر ألإعداد "
     },
     "time": {
-      "label": "Time: ",
-      "title": "Current Timezone time"
+      "label": "التوقيت: ",
+      "title": "التوقيت في المنطقة الزمنية الحالية"
     },
     "utc": {
-      "title": "Exchange Server Time / UTC",
-      "labelFullText": "UTC Time:",
+      "title": "توقيت خدام البورصة / UTC",
+      "labelFullText": "UTC توقيت :",
       "labelShortText": "UTC:"
     },
     "logout": {
-      "label": "Logout"
+      "label": "الخروج"
     },
     "setup": {
-      "label": "Setup"
+      "label": "إعدادات الإعداد"
     }
   },
   "monitoringSection": {
-    "feed": "News",
-    "signal": "Subscriptions",
+    "feed": "أخبار",
+    "signal": "الاشتراكات",
     "topFiveMarkets": {
       "btc": "BTC ",
       "eth": "ETH ",
@@ -229,765 +219,765 @@
       "ltc": "LTC "
     },
     "pairsBal": {
-      "label": "Pairs Balance"
+      "label": "رصيد الأزواج"
     },
     "dcaBal": {
-      "label": "DCA Balance"
+      "label": "DCA رصيد"
     },
     "coinTopMarket": {
-      "title": "CoinGecko Top 5 Coins"
+      "title": " أعلى 5 عملات علي CoinGecko"
     },
     "volume": {
-      "label": "Volume"
+      "label": "حجم"
     },
     "trade": {
-      "label": "Trades"
+      "label": "التداولات"
     },
     "globalMarket": {
-      "totalMarketCap": "Total Market Cap",
-      "total24HrsVol": "Total 24 Hour Volume",
-      "bitcoinMarketCap": "Bitcoin % of Market Cap",
-      "title": "CoinGecko - Total"
+      "totalMarketCap": "القيمة السوقية الإجمالية",
+      "total24HrsVol": "إجمالي حجم المعاملات في 24 ساعة",
+      "bitcoinMarketCap": "بيتكوين من القيمة السوقية ٪",
+      "title": "CoinGecko - الإجمالي"
     },
-    "usdFullText": " Estimated Value",
-    "usdShortText": " Est. Value",
-    "gainFullText": "Estimated Gain",
-    "gainShortText": "Est. Gain",
-    "heading": "Monitoring",
+    "usdFullText": " القيمة التقديرية",
+    "usdShortText": " القيمة المقدرة",
+    "gainFullText": "الربح التقديري",
+    "gainShortText": "الربح المقدر",
+    "heading": "الرقابة",
     "tcvDust": {
-      "label": "TCV with Dust",
-      "title": "Total Current Value with your Dust"
+      "label": "TCV مع Dust",
+      "title": "dust إجمالي القيمة الحالية بما فيها"
     },
-    "notification": "Notification",
-    "trendContainerFirstPart": "The % trend of 50 top ",
-    "trendContainerSecondPart": "coins from your market the last 24 hours",
-    "trend24H": "Trend 24H",
+    "notification": "الإبلاغ",
+    "trendContainerFirstPart": " الاتجاه من أعلى 50 ٪",
+    "trendContainerSecondPart": "العملات من السوق الخاص بك خلال ال 24 ساعة الماضية",
+    "trend24H": " الاتجاه 24س  ",
     "balance": {
-      "title": "Your current Balance not locked in bags",
-      "mainText": "Balance",
-      "usdFullText": "Estimated USD Value",
-      "usdShortText": "Est. USD Value"
+      "title": "رصيدك الحالي الغير معلق في التداول",
+      "mainText": "الرصيد",
+      "usdFullText": "USD القيمة المقدرة بالدولار الأمريكي",
+      "usdShortText": " USD القيمة التقديرية بالدولار "
     },
     "tcv": {
-      "title": "The current value of your bags",
-      "mainText": "Total Current Value",
-      "usdFullText": "Estimated USD Value",
-      "usdShortText": "Est. USD Value"
+      "title": "القيمة الحالية للتداولات المعلقة الخاصة بك",
+      "mainText": "إجمالي القيمة الحالية",
+      "usdFullText": "USD القيمة المقدرة بالدولار الأمريكي",
+      "usdShortText": "USD القيمة التقديرية بالدولار"
     },
     "sb": {
-      "title": "Your Start Balance. Can be set in your PAIRS.properties.",
-      "mainText": "Start Balance",
-      "usdFullText": "Estimated USD Value",
-      "usdShortText": "Est. USD Value"
+      "title": "PAIRS.properties رصيد البدء الخاص بك. يمكن تغيره في اعداد ",
+      "mainText": "الرصيد الافتتاحي",
+      "usdFullText": "USD القيمة المقدرة بالدولار الأمريكي",
+      "usdShortText": "USD القيمة التقديرية بالدولار"
     },
     "btcUsd": {
-      "title": "Last BTCUSDT price from your Market",
-      "mainText": "BTC USDT Price"
+      "title": "الأخير من السوق الخاص بك BTCUSDT سعر",
+      "mainText": "BTC USDT السعر"
     },
     "trendUsd1H": {
-      "mainText": "Trend USD last 1H "
+      "mainText": " USD الاتجاه فى آخر ١س "
     },
     "trendUsd24H": {
-      "mainText": "Trend USD last 24H "
+      "mainText": "USD الاتجاه فى آخر ٢٤س  "
     },
     "trendUsd7D": {
-      "mainText": "Trend USD last 7D "
+      "mainText": "USD الاتجاه فى آخر ٧ ايام  "
     },
     "trendUsdTill7D": {
-      "title": "Average % Trend last hour, last 24 hours and last 7 days of top 20 altcoins USD Market (CoinGecko)"
+      "title": "متوسط اتجاه الساعة الماضية ، آخر 24 ساعة ، آخر 7 أيام من أفضل 20 سوق في سوق الدولار الأمريكي (CoinGecko)"
     },
     "profitLW": {
-      "title": "Your profit from 7 Days",
-      "mainText": "Profit Last 7 Days",
-      "usdFullText": "Estimated USD Value",
-      "usdShortText": "Est. USD Value"
+      "title": "الربح الخاص بك من 7 أيام",
+      "mainText": "الاربح في آخر 7 أيام",
+      "usdFullText": "USD القيمة المقدرة بالدولار الأمريكي",
+      "usdShortText": "USD القيمة التقديرية بالدولار"
     },
     "profitYday": {
-      "title": "Your profit from yesterday",
-      "mainText": "Profit Yesterday",
-      "usdFullText": "Estimated USD Value",
-      "usdShortText": "Est. USD Value"
+      "title": "ربحك من أمس",
+      "mainText": "الربح أمس",
+      "usdFullText": "USD القيمة المقدرة بالدولار الأمريكي",
+      "usdShortText": "USD القيمة التقديرية بالدولار"
     },
     "profitToday": {
-      "title": "Your profit from today",
-      "mainText": "Profit Today",
-      "usdFullText": "Estimated USD Value",
-      "usdShortText": "Est. USD Value"
+      "title": "ربحك من اليوم",
+      "mainText": "الربح اليوم",
+      "usdFullText": "USD القيمة المقدرة بالدولار الأمريكي",
+      "usdShortText": "USD القيمة التقديرية بالدولار"
     },
     "pot": {
-      "title": "Pending Order Time",
+      "title": "توقيت المعاملات المعلقة",
       "label": "POT:",
-      "pwTitle": "Can be changed in Application file",
-      "pwText": "PW:",
-      "conText": "CON:",
+      "pwTitle": "Application file يمكن تغييرها في",
+      "pwText": "كلمه السر:",
+      "conText": "اعداد:",
       "somText": "SOM:",
-      "somoTitle": "Sell Only Mode Override",
+      "somoTitle": "تجاوز وضع البيع فقط",
       "somoText": "SOMO:",
-      "ptvTitle": "ProfitTrailer Version",
-      "guiVerTitle": "GUI Version",
+      "ptvTitle": "نسخة بروفت تريلر",
+      "guiVerTitle": "GUI نسخة ال",
       "guiVer": "GUI Ver: ",
       "pLetter": "P",
       "tLetter": "T",
-      "marketTitle": "Your Exchange and Trading Coin",
-      "marketLabel": "Market:",
+      "marketTitle": "البورصة وعملة التداول الخاصة بك",
+      "marketLabel": "السوق:",
       "ver": "Ver:"
     },
     "pairsLog": {
-      "title": "The current value of your pair coins",
-      "fullText": "Current Value",
+      "title": "القيمة الحالية لعملاتك الزوجية",
+      "fullText": "القيمة الحالية",
       "shortText": "CV",
-      "diffTitle": "The difference between Current Value and Bought Cost",
-      "diffFullText": "Difference",
-      "boughtCostTitle": "The bought cost of your pair coins",
-      "bcFullText": "Bought Cost",
+      "diffTitle": "الفرق بين القيمة الحالية والتكلفة المشتراة",
+      "diffFullText": "الفرق",
+      "boughtCostTitle": "الكلفة المشتراة لعملاتك الزوجية",
+      "bcFullText": "تكلفة الشراء",
       "bcShortText": "BC",
-      "label": "PAIRS LOG"
+      "label": "سجل الازوج"
     },
     "dcaLog": {
-      "title": "The current value of your DCA coins",
-      "fullText": "Current Value",
+      "title": "DCA القيمة الحالية لعملاتك في",
+      "fullText": "القيمة الحالي",
       "shortText": "CV",
-      "diffTitle": "The difference between Current Value and Total Cost",
-      "diffFullText": "Difference",
-      "totalCostTitle": "The total cost of your DCA coins",
-      "tcFullText": "Total Cost",
+      "diffTitle": "الفرق بين القيمة الحالية والتكلفة المشتراةt",
+      "diffFullText": "الفرق",
+      "totalCostTitle": "DCA التكلفة الإجمالية لعملاتك في",
+      "tcFullText": "التكلفة الإجمالية",
       "tcShortText": "TC",
-      "label": "DCA LOG"
+      "label": "DCA سجل"
     },
     "pendingLog": {
-      "title": "The current value of your pending coins",
-      "fullText": "Current Value",
+      "title": "القيمة الحالية لعملاتك في المعلقات",
+      "fullText": "القيمة الحالي",
       "shortText": "CV",
-      "diffTitle": "The difference between Current Value and Target Value",
-      "diffFullText": "Difference",
-      "targetValueTitle": "The target value of your pending coins",
-      "tvFullText": "Target Value",
+      "diffTitle": "الفرق بين القيمة الحالية والتكلفة المشتراة",
+      "diffFullText": "الفرق",
+      "targetValueTitle": "القيمة المستهدفة للعملاتك المعلقة",
+      "tvFullText": "القيمة المستهدفة",
       "tvShortText": "TV",
-      "label": "PENDING LOG"
+      "label": "سجل المعلقات"
     },
     "salesLog": {
-      "title": "The bought cost of your sold coins",
-      "fullText": "Bought Cost",
+      "title": "الكلفة المشتراة لعملاتك المباعة",
+      "fullText": "تكلفة الشراء",
       "shortText": "BC",
-      "diffTitle": "The difference between Bought Cost and Sold Value",
-      "diffFullText": "Difference",
-      "soldValueTitle": "The sold value of your sold coins",
-      "svFullText": "Sold Value",
+      "diffTitle": "الفرق بين التكلفة المشتراة والقيمة المباعة",
+      "diffFullText": "الفرق",
+      "soldValueTitle": "قيمة البيع للعملات المباعة",
+      "svFullText": "قيمة البيع",
       "svShortText": "SV",
-      "label": "SALES LOG"
+      "label": "سجل المبيعات"
     }
   },
   "psbSection": {
     "coin": {
-      "colName": "Coin",
-      "colTitle": "Coin Pair"
+      "colName": "العملة",
+      "colTitle": "زوج العملات"
     },
     "24H": {
       "colName": "%",
-      "colTitle": "24 Hour % Change"
+      "colTitle": "تغير في ٢٤ ساعة %"
     },
     "buyStrat": {
-      "colName": "Buy",
-      "colTitle": "Buy Strategy"
+      "colName": "شراء",
+      "colTitle": "استراتيجية الشراء"
     },
     "currPrice": {
-      "colName": "Ask Price",
-      "colTitle": "Ask Price"
+      "colName": "سعر الطلب",
+      "colTitle": "سعر الطلب"
     },
     "vol": {
-      "colName": "VOL",
-      "colTitle": "Volume"
+      "colName": "الحجم",
+      "colTitle": "الحجم"
     },
     "currBB": {
-      "colName": "Current BB",
-      "colTitle": "Current Bollinger Band"
+      "colName": "الحالي BB",
+      "colTitle": "Bollinger Band القيمة الحالي ل"
     },
     "currVal": {
       "colName": "BSV",
-      "colTitle": "Buy Strategy Value"
+      "colTitle": "قيمة استراتيجية الشراء"
     },
     "buyVal": {
       "colName": "BST",
-      "colTitle": "Buy Strategy Trigger"
+      "colTitle": "مستدعي استراتيجية الشراء"
     },
     "buyLimit": {
       "colName": "BSL",
-      "colTitle": "Buy Strategy Limit"
+      "colTitle": "حد استراتيجية الشراء"
     }
   },
   "dataTableSection": {
     "firstDate": {
-      "colName": "First Date"
+      "colName": "التاريخ الأول"
     },
     "firstTime": {
-      "colName": "First Time"
+      "colName": "المرة الأولى"
     },
     "firstTimeSince": {
-      "colName": "First Time Since"
+      "colName": "المرة الأولى منذ"
     },
     "lastDate": {
-      "colName": "Last Date"
+      "colName": "آخر تاريخ"
     },
     "lastTime": {
-      "colName": "Last Time"
+      "colName": "آخر وقت"
     },
     "lastTimeSince": {
-      "colName": "Last Time Since"
+      "colName": "آخر وقت منذ"
     },
     "buyTrigger": {
       "colName": "BTG%",
-      "colTitle": "Buy Strategy Trigger"
+      "colTitle": "مستدعي استراتيجية الشراء"
     },
     "sellTrigger": {
       "colName": "STG%",
-      "colTitle": "Sell Strategy Trigger"
+      "colTitle": "مستدعي استراتيجية البيع"
     },
     "currValCurrency": {
-      "colTitle": "Current Value {{currency}}"
+      "colTitle": "القيمة الحالية {{currency}}"
     },
     "stratVal": {
       "colName": "SSV",
-      "colTitle": "Sell Strategy Value"
+      "colTitle": "قيمة استراتيجية البيع"
     },
     "stratTrigger": {
       "colName": "SST",
-      "colTitle": "Sell Strategy Trigger"
+      "colTitle": "مستدعي استراتيجية البيع"
     },
     "currVal": {
-      "colName": "Current Value"
+      "colName": "القيمة الحالية"
     },
     "boughtCostCurrency": {
-      "colTitle": "Bought Cost {{currency}}"
+      "colTitle": "تكلفة الشراء {{currency}}"
     },
     "date": {
-      "colName": "Date"
+      "colName": "التاريخ"
     },
     "time": {
-      "colName": "Time"
+      "colName": "الوقت"
     },
     "timeSince": {
-      "colName": "Time Since"
+      "colName": "الوقت منذ"
     },
     "trigger": {
-      "colName": "Trigger"
+      "colName": "المستدعي"
     },
     "currPrice": {
-      "colName": "Bid Price"
+      "colName": "سعر العطاء"
     },
     "avgPrice": {
-      "colName": "Average Price"
+      "colName": "متوسط السعر"
     },
     "targetValue": {
-      "colName": "Target Value"
+      "colName": "القيمة المستهدفة"
     },
     "targetPrice": {
-      "colName": "Target Price"
+      "colName": "السعر المستهدف"
     },
     "AM": {
-      "label": " AM"
+      "label": " صباحا"
     },
     "PM": {
-      "label": " PM"
+      "label": " مساء"
     }
   },
   "buyLogSection": {
     "boughtAmount": {
-      "colName": "Bought Amount",
-      "colTitle": "Bought Amount"
+      "colName": "كمية المشتريات",
+      "colTitle": "كمية المشتريات"
     },
     "boughtCost": {
-      "colName": "Bought Cost",
-      "colTitle": "Bought Cost"
+      "colName": "تكلفة المشتريات",
+      "colTitle": "تكلفة المشتريات"
     },
     "firstTrailDate": {
-      "colName": "First Trail Date"
+      "colName": "أول تاريخ للتتبع"
     },
     "firstTrailTime": {
-      "colName": "First Trail Time"
+      "colName": "زمن أول تتبع"
     },
     "firstTrailTimeSince": {
-      "colName": "First Trail Time Since"
+      "colName": "زمن أول تتبع منذ"
     },
     "date": {
-      "colName": "Date",
-      "colTitle": "Date (Time Since)"
+      "colName": "التاريخ",
+      "colTitle": "التاريخ (Time Since)"
     },
     "firstTrail": {
-      "colName": "First Trail",
-      "colTitle": "First Trail"
+      "colName": "أول تتبع",
+      "colTitle": "أول تتبع"
     },
     "order": {
-      "colName": "Order Number",
-      "colTitle": "Order Number"
+      "colName": "رقم الطلب",
+      "colTitle": "رقم الطلب"
     },
     "coin": {
-      "colName": "Coin",
-      "colTitle": "Coin Pair"
+      "colName": "العملة",
+      "colTitle": "زوج العملات"
     },
     "boughtPrice": {
-      "colName": "Bought Price",
-      "colTitle": "Bought Price"
+      "colName": "سعر الشراء",
+      "colTitle": "سعر الشراء"
     },
     "volume": {
-      "colName": "VOL",
-      "colTitle": "Volume"
+      "colName": "الحجم",
+      "colTitle": "الحجم"
     },
     "buyType": {
-      "colName": "Buy Type",
-      "colTitle": "Buy Type"
+      "colName": "نوع الشراء",
+      "colTitle": "نوع الشراء"
     },
     "buy": {
-      "colName": "Buy",
-      "colTitle": "Buy"
+      "colName": "الشراء",
+      "colTitle": "الشراء"
     },
     "buyStratValue": {
       "colName": "BSV",
-      "colTitle": "Buy Strategy Value"
+      "colTitle": "قيمة استراتيجية الشراء"
     },
     "buyStratTrigger": {
       "colName": "BST",
-      "colTitle": "Buy Strategy Trigger"
+      "colTitle": "مستدعي استراتيجية الشراء"
     },
     "buyStrategyLimit": {
       "colName": "BSL",
-      "colTitle": "Buy Strategy Limit"
+      "colTitle": "حد استراتيجية الشراء"
     }
   },
   "pairsLogSection": {
     "date": {
-      "colName": "Date",
-      "colTitle": "Date (Time Since)"
+      "colName": "التاريخ",
+      "colTitle": "التاريخ (Time Since)"
     },
     "coin": {
-      "colName": "Coin",
-      "colTitle": "Coin Pair"
+      "colName": "العملة",
+      "colTitle": "زوج العملات"
     },
     "24H": {
       "colName": "%",
-      "colTitle": "24 Hour % Change"
+      "colTitle": "تغير في ٢٤ ساعة %"
     },
     "sellStrat": {
-      "colName": "Sell",
-      "colTitle": "Sell Strategy"
+      "colName": "بيع",
+      "colTitle": "استراتيجية البيع"
     },
     "currPrice": {
-      "colName": "Bid Price",
-      "colTitle": "Bid Price"
+      "colName": "سعر الشراء",
+      "colTitle": "سعر الشراء"
     },
     "currPriceBoughtPrice": {
-      "colName": "Bid Price <br> Bought Price",
-      "colTitle": "Bid Price <br> Bought Price"
+      "colName": "سعر الشراء <br> تكلفة الشراء",
+      "colTitle": "سعر الشراء <br> تكلفة الشراء"
     },
     "boughtrPrice": {
-      "colName": "Bought Price",
-      "colTitle": "Bought Price"
+      "colName": "تكلفة الشراء",
+      "colTitle": "تكلفة الشراء"
     },
     "profit": {
-      "colName": "P%",
-      "colTitle": "Profit and Order Book Profit in %"
+      "colName": "الربح%",
+      "colTitle": "الربح والأرباح سجل الطلبات %"
     },
     "trigger": {
       "colName": "TG%",
-      "colTitle": "Trigger"
+      "colTitle": "مستدعي"
     },
     "vol": {
       "colName": "VOL",
-      "colTitle": "Volume"
+      "colTitle": "الكم"
     },
     "totalAmount": {
       "colName": "TAM",
-      "colTitle": "Total Amount"
+      "colTitle": "المبلغ الإجمالي"
     },
     "currVal": {
-      "colName": "Current Value",
-      "colTitle": "Current Value"
+      "colName": "القيمة الحالية",
+      "colTitle": "القيمة الحالية"
     },
     "currValBoughtCost": {
-      "colName": "Current Value <br> Bought Cost",
-      "colTitle": "Current Value <br> Bought Cost"
+      "colName": "القيمة الحالية <br> تكلفة الشراء",
+      "colTitle": "القيمة الحالية <br> تكلفة الشراء"
     },
     "boughtCost": {
-      "colName": "Bought Cost",
-      "colTitle": "Bought Cost"
+      "colName": "سعر المشتريات",
+      "colTitle": "سعر المشتريات"
     },
     "boughtCostCurrency": {
-      "colTitle": "Currency Value <br> Bought Cost"
+      "colTitle": "القيمة الحالية <br> تكلفة الشراء"
     },
     "summaryTable": {
       "cv": "CV",
-      "currVal": "Current Value",
+      "currVal": "القيمة الحالية",
       "d": "D",
-      "diff": "Difference",
+      "diff": "الفرق",
       "bc": "BC",
-      "boughtCost": "Bought Cost"
+      "boughtCost": "تكلفة الشراء"
     }
   },
   "dcaLogSection": {
     "currentTotalCstValCurrency": {
-      "colTitle": "Current Value {{currency}}<br>Total Cost {{currency}}"
+      "colTitle": "القيمة الحالية {{currency}}<br>التكلفة الإجمالية {{currency}}"
     },
     "sellStratVal": {
       "colName": "SSV",
-      "colTitle": "Sell Strategy Value"
+      "colTitle": "قيمة استراتيجية البيع"
     },
     "buyStratVal": {
       "colName": "BSV",
-      "colTitle": "Buy Strategy Value"
+      "colTitle": "قيمة استراتيجية الشراء"
     },
     "BB": {
       "colName": "BB"
     },
     "date": {
-      "colName": "Date",
-      "colTitle": "Date (Time Since)"
+      "colName": "التاريخ",
+      "colTitle": "التاريخ (الوقت منذ)"
     },
     "coin": {
-      "colName": "Coin",
-      "colTitle": "Coin Pair"
+      "colName": "العملة",
+      "colTitle": "زوج العملة"
     },
     "24H": {
       "colName": "%",
-      "colTitle": "24 Hour % Change"
+      "colTitle": "التغيير في ٢٤ ساعة% "
     },
     "buyStrat": {
-      "colName": "Buy",
-      "colTitle": "Buy Strategy"
+      "colName": "الشراء",
+      "colTitle": "استراتيجية الشراء"
     },
     "bt": {
       "colName": "BT%",
-      "colTitle": "Buy Trigger"
+      "colTitle": "مفعل الشراء"
     },
     "buyEntryTrigger": {
       "colName": "BSTV",
-      "colTitle": "Buy Strategy Trigger Value"
+      "colTitle": "قيمة مستدعي استراتيجية الشراء"
     },
     "buyEntryVal": {
       "colName": "BST",
-      "colTitle": "Buy Strategy Trigger"
+      "colTitle": "مستدعى استراتيجية الشراء"
     },
     "sellEntryVal": {
       "colName": "SST",
-      "colTitle": "Sell Strategy Trigger"
+      "colTitle": "مستدعى استراتيجية البيع"
     },
     "sellStrat": {
-      "colName": "Sell",
-      "colTitle": "Sell Strategy"
+      "colName": "البيع",
+      "colTitle": "استراتيجية البيع"
     },
     "currPrice": {
-      "colName": "Bid.Pr<br>Avg.Pr",
-      "colTitle": "Bid Price<br>Average Price"
+      "colName": "سعر العطاء<br>متوسط السعر",
+      "colTitle": "متوسط السعر<br>متوسط السعر"
     },
     "profit": {
-      "colName": "P%",
-      "colTitle": "Profit and Order Book Profit in %"
+      "colName": "الربح%",
+      "colTitle": "الربح والأرباح سجل الطلبات %"
     },
     "vol": {
-      "colName": "VOL",
-      "colTitle": "Volume"
+      "colName": "الحجم",
+      "colTitle": "الحجم"
     },
     "totalAmount": {
       "colName": "TAM",
-      "colTitle": "Total Amount"
+      "colTitle": "المبلغ الإجمالي"
     },
     "currVal": {
-      "colName": "Cur.Val<br>Tot.Cost",
-      "colTitle": "Current Value<br>Total Cost"
+      "colName": "القيمة الحالية<br>التكلفة الإجمالية",
+      "colTitle": "القيمة الحالية<br>التكلفة الإجمالية"
     },
     "totalCost": {
-      "colName": "Total Cost",
-      "colTitle": "Total Cost"
+      "colName": "التكلفة الإجمالية",
+      "colTitle": "التكلفة الإجمالية"
     },
     "summaryTable": {
       "cv": "CV",
-      "currVal": "Current Value",
+      "currVal": "القيمة الحالية",
       "d": "D",
-      "diff": "Difference",
+      "diff": "الفرق",
       "tc": "TC",
-      "totalCost": "Total Cost"
+      "totalCost": "التكلفة الإجمالية"
     }
   },
   "pendingLogSection": {
     "targetCurrentValCurrency": {
-      "colTitle": " Current Value {{currency}}<br>Target Value {{currency}}"
+      "colTitle": " القيمة الحالية {{currency}}<br>القيمة المستهدفة {{currency}}"
     },
     "coin": {
-      "colName": "Coin",
-      "colTitle": "Coin Pair"
+      "colName": "العملة",
+      "colTitle": "زوج العملة"
     },
     "24H": {
       "colName": "%",
-      "colTitle": "24 Hour % Change"
+      "colTitle": " التغيير في ٢٤ ساعة %"
     },
     "sellStrat": {
-      "colName": "Sell",
-      "colTitle": "Sell Strategy"
+      "colName": "بيع",
+      "colTitle": "استراتيجية البيع"
     },
     "currPrice": {
-      "colName": "Bid Price",
-      "colTitle": "Bid Price"
+      "colName": "سعر الشراء",
+      "colTitle": "سعر الشراء"
     },
     "currPriceTargetPrice": {
-      "colName": "Bid Price<br>Target Price",
-      "colTitle": "Bid Price<br>Target Price"
+      "colName": "سعر الشراء<br>السعر المستهدف",
+      "colTitle": "سعر الشراء<br>السعر المستهدف"
     },
     "profit": {
-      "colName": "P%",
-      "colTitle": "Profit in %"
+      "colName": "الربح%",
+      "colTitle": "في الربح %"
     },
     "comboProfit": {
-      "colName": "CP%",
-      "colTitle": "Combined Profit in %"
+      "colName": "الربح المشترك%",
+      "colTitle": "في الربح المشترك %"
     },
     "trigger": {
-      "colName": "TG%",
-      "colTitle": "Trigger Value in %"
+      "colName": "قيمة المستدعي %",
+      "colTitle": "في قيمة المستدعي %"
     },
     "totalAmount": {
-      "colName": "TAM",
-      "colTitle": "Total Amount"
+      "colName": "المبلغ الإجمالي",
+      "colTitle": "المبلغ الإجمالي"
     },
     "currVal": {
-      "colName": "Cur.Val<br>Tar.Val",
-      "colTitle": "Current Value<br>Target Value"
+      "colName": "القيمة الحالية<br>القيمة المستهدفة",
+      "colTitle": "القيمة الحالية<br>القيمة المستهدفة"
     },
     "targetVal": {
-      "colName": "Target Value",
-      "colTitle": "Target Value"
+      "colName": "القيمة المستهدفة",
+      "colTitle": "القيمة المستهدفة"
     },
     "summaryTable": {
       "cv": "CV",
-      "currVal": "Current Value",
+      "currVal": "القيمة الحالية",
       "d": "D",
-      "diff": "Difference",
+      "diff": "الفرق",
       "tv": "TV",
-      "targetVal": "Target Value"
+      "targetVal": "القيمة المستهدفة"
     }
   },
   "salesLogSection": {
     "boughtSoldPrice": {
-      "colName": "Bought Price<br>Sold Price"
+      "colName": "سعر الشراء<br>قيمة البيع"
     },
     "boughtSoldValue": {
-      "colName": "Bought Cost<br>Sold Value"
+      "colName": "سعر الشراء<br>قيمة البيع"
     },
     "boughtSoldValueCurrency": {
-      "colTitle": "Bought Cost {{currency}}<br>Sold Value {{currency}}"
+      "colTitle": "سعر الشراء {{currency}}<br>قيمة البيع {{currency}}"
     },
     "soldValueCurrency": {
-      "colTitle": "Sold Value {{currency}}"
+      "colTitle": "قيمة البيع {{currency}}"
     },
     "coin": {
-      "colName": "Coin",
-      "colTitle": "Coin Pair"
+      "colName": "العملة",
+      "colTitle": "زوج العملة"
     },
     "sellStrat": {
-      "colName": "Sell",
-      "colTitle": "Sell Strategy"
+      "colName": "البيع",
+      "colTitle": "استراتيجية البيع"
     },
     "date": {
-      "colName": "Date",
-      "colTitle": "Date (Time Since)"
+      "colName": "التاريخ",
+      "colTitle": "التاريخ (الوقت منذ)"
     },
     "boughtPrice": {
-      "colName": "Bought Price",
-      "colTitle": "Bought Price"
+      "colName": "سعر الشراء",
+      "colTitle": "سعر الشراء"
     },
     "soldPrice": {
-      "colName": "Sold Price",
-      "colTitle": "Sold Price"
+      "colName": "سعر البيع",
+      "colTitle": "سعر البيع"
     },
     "profit": {
-      "colName": "P%",
-      "colTitle": "Profit in %"
+      "colName": "الربح%",
+      "colTitle": "في الربح %"
     },
     "trigger": {
-      "colName": "TG%",
-      "colTitle": "Trigger"
+      "colName": "المستدعي%",
+      "colTitle": "المستدعي"
     },
     "profitUSD": {
-      "colName": "Profit <span class='api-market'></span>",
-      "colTitle": "Profit in your Market and USD "
+      "colName": "الربح <span class='api-market'></span>",
+      "colTitle": "الربح في السوق الخاص بك والدولار الأمريكي "
     },
     "soldAmount": {
-      "colName": "SAM",
-      "colTitle": "Sold Amount"
+      "colName": "المبلغ المباع",
+      "colTitle": "المبلغ المباع"
     },
     "boughtCost": {
-      "colName": "Bought Cost",
-      "colTitle": "Bought Cost"
+      "colName": "تكلفة المشتريات",
+      "colTitle": "تكلفة المشتريات"
     },
     "boughtCostCurrency": {
-      "colTitle": "Bought Cost {{currency}}"
+      "colTitle": "تكلفة المشتريات {{currency}}"
     },
     "soldValue": {
-      "colName": "Sold Value",
-      "colTitle": "Sold Value"
+      "colName": "قيمة البيع",
+      "colTitle": "قيمة البيع"
     },
     "profitSolo": {
-      "colName": "Profit {{- market}}",
-      "colTitle": "Profit {{market}}"
+      "colName": "الربح {{- market}}",
+      "colTitle": "الربح {{market}}"
     },
     "profitCurrency": {
-      "colTitle": "Profit {{currency}}"
+      "colTitle": "الربح {{currency}}"
     },
     "summaryTable": {
       "sv": "SV",
-      "soldVal": "Sold Value",
+      "soldVal": "قيمة البيع",
       "d": "D",
-      "diff": "Difference",
+      "diff": "الفرق",
       "bc": "BC",
-      "boughtCost": "Bought Cost"
+      "boughtCost": "تكلفة المشتريات"
     }
   },
   "dustLogSection": {
     "date": {
-      "colName": "Date",
-      "colTitle": "Date (Time Since)"
+      "colName": "التاريخ",
+      "colTitle": "التاريخ (الوقت منذ)"
     },
     "coin": {
-      "colName": "Coin",
-      "colTitle": "Coin Pair"
+      "colName": "العملة",
+      "colTitle": "زوج العملة"
     },
     "24H": {
       "colName": "%",
-      "colTitle": "24 Hour % Change"
+      "colTitle": "التغيير في ٢٤ ساعة %"
     },
     "currPriceBoughtPrice": {
-      "colName": "Bid Price <br> Bought Price",
-      "colTitle": "Bid Price <br> Bought Price"
+      "colName": "سعر العطاء <br> سعر الشراء",
+      "colTitle": "سعر العطاء <br> سعر الشراء"
     },
     "currPrice": {
-      "colName": "Bid Price",
-      "colTitle": "Bid Price"
+      "colName": "سعر العطاء",
+      "colTitle": "سعر العطاء"
     },
     "boughtPrice": {
-      "colName": "Bought Price",
-      "colTitle": "Bought Price"
+      "colName": "سعر الشراء",
+      "colTitle": "سعر الشراء"
     },
     "profit": {
-      "colName": "P%",
-      "colTitle": "Profit in %"
+      "colName": "الربح%",
+      "colTitle": "في الربح %"
     },
     "trigger": {
-      "colName": "TG%",
-      "colTitle": "Trigger Value in %"
+      "colName": "قيمة المستدعي%",
+      "colTitle": "في قيمة المستدعي %"
     },
     "vol": {
-      "colName": "VOL",
-      "colTitle": "Volume"
+      "colName": "الحجم",
+      "colTitle": "الحجم"
     },
     "totalAmount": {
-      "colName": "TAM",
-      "colTitle": "Total Amount"
+      "colName": "المبلغ الإجمالي",
+      "colTitle": "المبلغ الإجمالي"
     },
     "currValBoughtCost": {
-      "colName": "Current Value <br> Bought Cost",
-      "colTitle": "Current Value <br> Bought Cost"
+      "colName": "القيمة الحالية <br> تكلفة المشتريات",
+      "colTitle": "القيمة الحالية <br> تكلفة المشتريات"
     },
     "currVal": {
-      "colName": "Current Value",
-      "colTitle": "Current Value"
+      "colName": "القيمة الحالية",
+      "colTitle": "القيمة الحالية"
     },
     "boughtCost": {
-      "colName": "Bought Cost",
-      "colTitle": "Bought Cost"
+      "colName": "تكلفة المشتريات",
+      "colTitle": "تكلفة المشتريات"
     },
     "boughtCostCurrency": {
-      "colTitle": "Currency Value {{currency}} <br> Bought Cost {{currency}}"
+      "colTitle": "القيمة الحالية {{currency}} <br> تكلفة المشتريات {{currency}}"
     },
     "summaryTable": {
       "cv": "CV",
-      "currVal": "Current Value",
+      "currVal": "القيمة الحالية",
       "d": "D",
-      "diff": "Difference",
+      "diff": "الفرق",
       "bc": "BC",
-      "boughtCost": "Bought Cost"
+      "boughtCost": "تكلفة المشتريات"
     }
   },
   "footer": {
-    "stopPFTrailer": "Stop ProfitTrailer",
-    "ptVersion": "ProfitTrailer Version",
-    "ver": "Ver:",
-    "pendingOrder": "Pending Order Time",
+    "stopPFTrailer": "اوقف بروفيت تريلر",
+    "ptVersion": "نسخة بروفيت تريلر ",
+    "ver": "النسخة:",
+    "pendingOrder": "توقيت الطلبات المعلقة",
     "pot": "POT:",
     "wiki": "Wiki",
-    "profitTrailer": "ProfitTrailer",
+    "profitTrailer": "بروفيت تريلر",
     "pt": "PT",
     "pLetter": "P",
     "tLetter": "T"
   },
   "constantMsgs": {
-    "somoSuccess": "SOMO value changed successfully",
-    "ptMonitor": "ProfitTrailer Monitor",
-    "ajaxError": "There was an error while refreshing the data from ProfitTrailer. Please check your connection. If your connection is fine refresh the page and have a pint.",
-    "processingError": "There was an error while processing the data received from ProfitTrailer. Please give ProfitTrailer some love, make a coffee and all will be good soon.",
-    "configSuccess": "You have successfully saved the data",
-    "configNotSave": "Changes that you made are not saved. Do you still want to leave this page?",
-    "onPassword": "On",
-    "offPassword": "Off",
-    "onConfig": "On",
-    "offConfig": "Off",
-    "unsaveChange": "(Unsaved changes)",
-    "save": " Save Config",
-    "noNotifications": "No notifications.",
-    "noSignals": "No Subscriptions.",
-    "noHeartbeats": "No heartbeats.",
-    "viewAll": "View all",
-    "viewLess": "View less",
-    "true": "true",
-    "false": "false",
-    "somtrue": "true",
-    "somfalse": "false",
-    "somotrue": "active",
-    "somofalse": "inactive",
-    "search": "Search",
-    "newButton": "New Config",
-    "publishButton": "Publish",
-    "backupButton": "Download Config Files",
-    "downloadLogs": "Download Logs",
+    "somoSuccess": "SOMO تم تغيير بنجاح قيمة",
+    "ptMonitor": "مراقب بروفيت تريلر",
+    "ajaxError": "حدث خطأ أثناء تحديث البيانات من بروفيت تريلر. يرجى التحقق من اتصالك بالانترنت. إذا كان اتصالك جيدًا ، فقم بتحديث الصفحة والحصول علي فنجان شاي",
+    "processingError": "حدث خطأ أثناء معالجة البيانات الواردة من بروفيت تريلر. يرجى إعطاء بروفيت تريلر بعض الحب ، وصنع القهوة ، وسوف يكون كل شيء علي ما يرام قريبًا",
+    "configSuccess": "تم حفظ البيانات بنجاح",
+    "configNotSave": "لا يتم حفظ التغييرات التي أجريتها. هل ما زلت تريد مغادرة هذه الصفحة؟",
+    "onPassword": "فتح",
+    "offPassword": "غلق",
+    "onConfig": "فتح",
+    "offConfig": "غلق",
+    "unsaveChange": "(التغييرات غير المحفوظة)",
+    "save": " حفظ الاعدادات",
+    "noNotifications": "لا تنبيهات",
+    "noSignals": "لا اشتراكات",
+    "noHeartbeats": "لا دقات القلب",
+    "viewAll": "عرض الكل",
+    "viewLess": "عرض أقل",
+    "true": "صحيح",
+    "false": "زائف",
+    "somtrue": "صحيح",
+    "somfalse": "زائف",
+    "somotrue": "فعال",
+    "somofalse": "غير فعال",
+    "search": "بحث",
+    "newButton": "اعداد جديد",
+    "publishButton": "أصدر",
+    "backupButton": "تحميل ملفات الاعداد",
+    "downloadLogs": "تحميل السجلات",
     "hotConfig": "HotConfig",
-    "delete": "Delete Config",
-    "blacklist": "Blacklist",
-    "whitelist": "Whitelist",
-    "blackwhitelist": "All",
-    "manageBlackList": "Blacklist Management",
-    "noFeed": "No news.",
-    "loading": "Loading"
+    "delete": "حذف الاعداد",
+    "blacklist": "القائمة السوداء",
+    "whitelist": "القائمة البيضاء",
+    "blackwhitelist": "الكل",
+    "manageBlackList": "إدارة القائمة السوداء",
+    "noFeed": "لا أخبار",
+    "loading": "جار التحميل"
   },
   "alertMsgs": {
-    "newConfigurationName": "New Configuration Name",
-    "exit": "Exit",
-    "cancelBtn": "Cancel",
-    "stop": "Stop",
-    "stopAlert": "Are you sure, you want to stop ProfitTrailer?",
-    "stopBtn": "Stop",
-    "noPwd": "Please enable password/config in your application file to enable this function.",
-    "sureText": "Are you sure?",
-    "switchConfigText": "This will immediately change the configuration that your bot is using to trade to ",
-    "confirmText": "Yes, activate ",
-    "switchedText": "Switched!",
-    "hotConfig": "Enter a Hot Config command for ",
-    "inputPlaceholder": "Type your command",
-    "submitBtn": "Submit",
-    "sent": "Sent",
-    "cancelled": "Cancelled",
-    "fileStillUnsaved": "Your file is as you left it, still unsaved.",
-    "to": " to ",
-    "recoverFile": "You will not be able to recover this file!",
-    "deleted": "Deleted!",
-    "sureTo": "Are you sure you want to ",
-    "willWork": "This will work",
-    "resetQues": "RESET?",
-    "reset": "RESET",
-    "resetTestModeData": "Are you sure you want to reset ALL DATA???",
-    "resettingPT": "Resetting ProfitTrailer...",
-    "panicSell": "PANIC SELL?",
-    "turningOnPanicSellWarning": "WARNING: TURNING ON PANIC SELL AND SAVING THIS FORM WILL IMMEDIATELY SELL ALL OF YOUR PAIRS AT CURRENT MARKET VALUE.",
+    "newConfigurationName": "اسم التكوين الجديد",
+    "exit": "خروج",
+    "cancelBtn": "إلغاء",
+    "stop": "توقف",
+    "stopAlert": "هل أنت متأكد من أنك تريد إيقاف بروفيت تريلر؟",
+    "stopBtn": "توقف",
+    "noPwd": "يرجى تمكين الباسورد / التكوين في ملف ابليكيشن الخاص بك لتمكين هذه الوظيفة",
+    "sureText": "هل أنت واثق؟",
+    "switchConfigText": "سيؤدي هذا على الفور إلى تغيير التكوين الذي يستخدمه الروبوت الخاص بك للتداول الي ",
+    "confirmText": "نعم ، قم بالتفعيل ",
+    "switchedText": "تم التحويل!",
+    "hotConfig": "Hot Config أدخل أمر",
+    "inputPlaceholder": "اكتب الأمر الخاص بك",
+    "submitBtn": "سلم",
+    "sent": "أرسلت",
+    "cancelled": "ملغى",
+    "fileStillUnsaved": "الملف الخاص بك كما تركته ، لا يزال غير المحفوظ",
+    "to": " إلى ",
+    "recoverFile": "!لن تتمكن من استعادة هذا الملف",
+    "deleted": "!تم الحذف",
+    "sureTo": "هل أنت متأكد أنك تريد ",
+    "willWork": "هذا سيفي بالغرض",
+    "resetQues": "إعادة الضبط؟",
+    "reset": "إعادة الضبط",
+    "resetTestModeData": "هل أنت متأكد أنك تريد إعادة ضبط جميع البيانات ؟؟",
+    "resettingPT": "...إعادة ضبط بروفيت تريلر",
+    "panicSell": "البيع بذعر؟",
+    "turningOnPanicSellWarning": "تحذير: سيؤدي تفعيل بيع الذعر وإنقاذ هذا النموذج إلى بيع جميع أزواجك على الفور في قيمة السوق الحالية",
     "ok": "OK",
-    "setting": "Setting: ",
-    "noTip": "No tip!",
-    "newConfigName": "Enter a name for your new configuration.",
-    "save": "Save",
+    "setting": ":الاعداد",
+    "noTip": "!لا تلميح",
+    "newConfigName": "أدخل اسمًا للتكوين الجديد",
+    "save": "حفظ",
     "maxConfigurations": "You have reached the maximum number ({{maxConfigsAllowed}}) of allowed configurations.",
     "cancelOrderConfirm": "Are you sure you want to cancel the open order #{{orderNumber}} {{pair}} ",
     "cancelOrderBtn": "Cancel order #{{orderNumber}}",
