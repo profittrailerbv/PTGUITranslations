@@ -30,7 +30,14 @@
     "proTools": "PRO 기능",
     "stats": "통계",
     "activeConfig": "현재 설정",
-    "otherConfigs": "다른 설정"
+    "otherConfigs": "다른 설정",
+    "miscCoins": "Misc. Coins",
+    "reservedLog": "Reserved Coins",
+    "reversalLog": "Reversal Coins",
+    "notifications": "Notifications",
+    "account": "Account",
+    "hotconfig": "Hot Config",
+    "ptfeeder": "PTFeeder"
   },
   "news": {
     "postedOn": "게시됨"
@@ -128,7 +135,10 @@
     "imageTitles": {
       "fullScreen": "전체화면"
     },
-    "updated": "업데이트됨 : {{- timeAgo}}"
+    "updated": "업데이트됨 : {{- timeAgo}}",
+    "marginTrading": {
+      "label": "MARGIN"
+    }
   },
   "settingInfo": {
     "active": "활성화",
@@ -139,7 +149,11 @@
     },
     "chngePswrd": {
       "label": "비밀번호 변경",
-      "title": "비밀번호를 변경하려면 \"{{ role }}\" 권한이 있어야 합니다."
+      "title": "비밀번호를 변경하려면 \"{{ role }}\" 권한이 있어야 합니다.",
+      "tabs": {
+        "admin": "Admin password",
+        "moniter": "Monitor password"
+      }
     },
     "noPswrdAndConfig": {
       "title": "이 기능을 사용하려면 application.properties 파일에서 password와 config 옵션을 활성화 하세요."
@@ -174,7 +188,10 @@
     "somOnOff": {
       "label": "SOM",
       "subLabel": "SOM 비활성화/활성화",
-      "title": "매도 전용 모드(SOM)"
+      "title": "매도 전용 모드(SOM)",
+      "globalLabel": "Global SOM",
+      "ON": "ON",
+      "OFF": "OFF"
     },
     "somo": {
       "label": "SOMO: ",
@@ -207,6 +224,10 @@
     },
     "setup": {
       "label": "설정"
+    },
+    "changeConfig": {
+      "label": "Public Configs",
+      "title": "Role should be \"{{ role }}\" to download configs."
     }
   },
   "monitoringSection": {
@@ -343,7 +364,10 @@
       "boughtCostTitle": "DCA 코인의 매수 비용",
       "bcFullText": "매수 가격",
       "bcShortText": "TC",
-      "label": "DCA 코인"
+      "label": "DCA 코인",
+      "totalCostTitle": "The total cost of your DCA coins",
+      "tcFullText": "Total Cost",
+      "tcShortText": "TC"
     },
     "pendingLog": {
       "title": "지정가 매도 코인의 현재 가치",
@@ -366,6 +390,9 @@
       "svFullText": "매도 값",
       "svShortText": "SV",
       "label": "매도 내역"
+    },
+    "reversalBal": {
+      "label": "Reversal Balance"
     }
   },
   "psbSection": {
@@ -479,6 +506,19 @@
     },
     "PM": {
       "label": " 오후"
+    },
+    "liqPrice": {
+      "colName": "Liq. Price",
+      "colTitle": "Liquid Price"
+    },
+    "actions": {
+      "colName": "Actions"
+    },
+    "avgCurrentTargetSoldPrice": {
+      "colName": "Avg. Price<br>Cur. Price<br>Target Price<br>Sold Price"
+    },
+    "currentDeltaTargetSoldProfitPercentage": {
+      "colName": "Current Profit<br>Target Profit<br>Sold Profit"
     }
   },
   "buyLogSection": {
@@ -611,6 +651,14 @@
       "diff": "차이",
       "bc": "BC",
       "boughtCost": "매수 가격"
+    },
+    "liqPrice": {
+      "colName": "Liq. Price",
+      "colTitle": "Liquid Price"
+    },
+    "currPriceBoughtPriceLiqPrice": {
+      "colName": "Bid Price <br> Bought Price <br> Liquid Price",
+      "colTitle": "Bid Price <br> Bought Price <br> Liquid Price"
     }
   },
   "dcaLogSection": {
@@ -695,6 +743,10 @@
       "diff": "차이",
       "tc": "TC",
       "totalCost": "전체 비용"
+    },
+    "currPriceLiquidPrice": {
+      "colName": "Bid.Pr<br>Avg.Pr<br>Liq.Pr",
+      "colTitle": "Bid Price<br>Average Price<br>Liquid Price"
     }
   },
   "pendingLogSection": {
@@ -905,7 +957,10 @@
     "profitTrailer": "프로핏 트레일러",
     "pt": "PT",
     "pLetter": "P",
-    "tLetter": "T"
+    "tLetter": "T",
+    "gui": "GUI:",
+    "discord": "Discord",
+    "shop": "Shop"
   },
   "constantMsgs": {
     "somoSuccess": "SOMO 값이 성공적으로 변경되었습니다.",
@@ -943,7 +998,8 @@
     "blackwhitelist": "전체",
     "manageBlackList": "블랙리스트 관리",
     "noFeed": "뉴스 없음.",
-    "loading": "로딩"
+    "loading": "로딩",
+    "ajaxErrorBotNotRunning": "It seems your ProfitTrailer Bot is not running."
   },
   "alertMsgs": {
     "newConfigurationName": "새로운 설정 이름",
@@ -990,7 +1046,24 @@
     "endPointNotImplemented": "ENDPOINT 가 아직 구현 안됨: ",
     "cancelledOrderNumber": "주문번호 {{orderNumber}} 취소됨",
     "unsavedChangesOnThisTab": "이 탬에 저장하지 않은 변경 사항이 있습니다. 지금 변경사항을 저장하거나 취소를 눌러 돌아갈 수 있습니다.",
-    "copiedToNewConfig": "현재 수정중인 ({{editingConfig}}) 설정은 새로운 이 설정으로 복사될 것입니다."
+    "copiedToNewConfig": "현재 수정중인 ({{editingConfig}}) 설정은 새로운 이 설정으로 복사될 것입니다.",
+    "pendingTitle": "Send {{pair}} To Pending",
+    "pendingText": "Enter a target price for the pair",
+    "pendingPlaceholder": "Enter Target Price for: {{pair}}",
+    "pendingConfirm": "Send To Pending",
+    "boughtCostTitle": "Enter Bought Cost for {{pair}}",
+    "boughtCostText": "You can find the formatting of the bought cost command in our wiki. Check the link in the footer.",
+    "boughtCostPlaceholder": "Enter Bought Cost for: {{pair}}",
+    "buyRecord": "Add New Buy Record",
+    "salesRecord": "Add New Sales Record",
+    "newRecordText": "Are you sure you want to add the record with the following information for: {{pair}}",
+    "addRecord": "Add Record",
+    "recordAdded": "Record Added",
+    "recordError": "You have empty fields. Please fill out all and try again.",
+    "somethingWrong": "Something went wrong.",
+    "filledProperties": "Please try again and make sure all fields are filled properly.",
+    "noneChosen": "You need to choose a type",
+    "insertValue": "YOu need to insert a value"
   },
   "currencyNames": {
     "usd": "미국 달러",
@@ -1179,7 +1252,7 @@
     "shrink": "Shrink",
     "blacklist": "Blacklist",
     "anderson": "ANDERSON",
-     "dcaEnabled": "DCA Enabled",
+    "dcaEnabled": "DCA Enabled",
     "hmacrosscandles": "HMA Cross Candles",
     "hmacandleperiod": "HMA Candle Period",
     "hmafastlength": "HMA Fast Length",
@@ -1299,6 +1372,361 @@
     "Profits": "수익",
     "TotalCurrentValue": "현재 총 자산",
     "minTCV": "최저 TCV",
-    "maxTCV": "최고 TCV"
+    "maxTCV": "최고 TCV",
+    "generalStats": "General Stats",
+    "coinSpecific": "Coin Specific",
+    "showAsTableData": "Show as Tables",
+    "dailyProfits": "Daily Profits",
+    "dailyStats": "Daily Stats",
+    "monthlyProfits": "Monthly Profits",
+    "monthlyStats": "Monthly Stats",
+    "salesDistribution": "Sales Distribution",
+    "salesDistributionAbbr": "Sales Distribution Abbreviations",
+    "dSpentVsEarned": "Daily: Spent vs Earned",
+    "mSpentVsEarned": "Monthly: Spent vs Earned",
+    "dBuysVsSells": "Daily: Buys vs Sales",
+    "mBuysVsSells": "Monthly: Buys vs Sales",
+    "sales": "Sales",
+    "buys": "Buys",
+    "spent": "Spent",
+    "earned": "Earned",
+    "profits": "Profits",
+    "totalCurrentValue": "Total Current Value",
+    "takeProfit": "Take Profit",
+    "takeProfitSafety": "Take Profit Safety",
+    "trailingStopLoss": "Trailing Stop Loss",
+    "maxProfit": "Max Profit",
+    "manual": "Manual",
+    "gain": "Gain",
+    "mostProfitablePairs": "Most Profitable Pairs",
+    "leastProfitablePairs": "Least Profitable Pairs",
+    "mostSoldPairs": "Most Sold Pairs",
+    "dcaCounter": "Sell DCA Count",
+    "avgTradeDuration": "Avg Trade Duration (hours)",
+    "timesSold": "Times Sold",
+    "profit": "Profit",
+    "dcaLevel": "DCA Level",
+    "pairsSold": "Pairs Sold",
+    "type": "Type",
+    "totalBuys": "Total Buys",
+    "totalBoughtCost": "Total Bought Cost",
+    "totalSells": "Total Sells",
+    "totalSellValue": "Total Sell Value",
+    "totalProfits": "Total Profits"
+  },
+  "appNotification": {
+    "notifications": "Notification",
+    "confirmText": "OK"
+  },
+  "accountPage": {
+    "serverSettings": "Server Settings",
+    "userSettings": "User Settings",
+    "notifications": "Notifications",
+    "SSL": "SSL",
+    "debugging": "Debugging",
+    "PTN": "PTN",
+    "logs": "Logs",
+    "PTA": "PT Assistant",
+    "provider": "Signal Providers",
+    "applicationPort": {
+      "header": "Application Port",
+      "placeholder": "8081",
+      "help": "The port that is being used by the bot. Change this value to something unique (like 8082, etc) if you want to start other instances of the bot on the same machine."
+    },
+    "siteName": {
+      "header": "Site Name",
+      "placeholder": "My BTC Bot",
+      "help": "Set the unique text you wish to appear in the browser tab (website title). This it also used in Discord and Telegram Notifications."
+    },
+    "ptFeeder": {
+      "header": "PTFeeder Location",
+      "placeholder": "/var/opt/pt-feeder/",
+      "help": "PTFeeder root folder location"
+    },
+    "apiToken": {
+      "header": "Api Token",
+      "placeholder": "kjashd983h2dn9832jdi3d0892h3d",
+      "help": "This optional token can be used to allow third party applications to connection to your BOT via a built in API.",
+      "randomString": "Generate Random String."
+    },
+    "serverAddress": {
+      "header": "Server Address",
+      "placeholder": "123.123.123.123",
+      "help": "Bind the Profit trailer instance to a specific WAN/Public IP address. Useful for uses with multiple public IP addresses and multiple bots."
+    },
+    "serverContextPath": {
+      "header": "Server Context Path",
+      "placeholder": "/binancebtc",
+      "help": "Adds a custom base url to the Web server. Using the example above you would now access ProfitTrailer from http://localhost:8081/binancebtc/monitoring."
+    },
+    "exchangeURL": {
+      "header": "Exchange URL",
+      "placeholder": "https://www.binance.com/tradeDetail.html?symbol=%c_%b",
+      "help": "Define custom url to be used when a coin pair is clicked in the Web GUI. The %c and %b values are variables based on the coin pair being clicked."
+    },
+    "logHistory": {
+      "header": "Log History",
+      "placeholder": "8",
+      "help": "Set how many days of sell log history to show in the GUI. Once the set number of days passes, older history will be removed from the bot."
+    },
+    "runInTestMode": {
+      "header": "Run in Test Mode"
+    },
+    "runOnTestNet": {
+      "header": "Run on BitMEX Test Net"
+    },
+    "marginTrading": {
+      "header": "Use margin account"
+    },
+    "openBrowser": {
+      "header": "Auto open browser"
+    },
+    "startBalance": {
+      "header": "Start Balance",
+      "placeholder": "0",
+      "help": "The balance you had when first starting. Also used to calculate TCV based profit %"
+    },
+    "profitCalculationMethod": {
+      "header": "Profit Calculation Method",
+      "help": "The method used to calculate profit displayed on the GUI."
+    },
+    "buyOrderType": {
+      "header": "Buy Order Type",
+      "help": "The order type you want ProfitTrailer to buy with."
+    },
+    "sellOrderType": {
+      "header": "Sell Order Type",
+      "help": "The order type you want ProfitTrailer to sell with."
+    },
+    "tradingDelay": {
+      "header": "Trading Delay",
+      "placeholder": "5",
+      "help": "The start delay prevents the bot from trading for the set number of minutes after bootup. This parameter is designed to give you enough time to place the bot in SOM or disable trading, or change your buy/sell strategies before it resumes trading."
+    },
+    "timezone": {
+      "header": "Timezone",
+      "help": "Set the timezone ID of the location you live. This will take precedence over server.timezone_offset and will automatically handle daylight saving times."
+    },
+    "advancedStats": {
+      "header": "Adv. Stats",
+      "help": "Pro/Advanced Users only: Set to false to disable advanced statistics in the GUI."
+    },
+    "tableButtons": {
+      "header": "Show Buttons in Tables",
+      "help": "Shows Buy, Sell and Pending buttons in tables."
+    },
+    "offlineConfig": {
+      "header": "Offline Config",
+      "help": "Set to true to enable local offline storage of settings instead of on the PT database. Settings (excluding application.properties) will still be communicated to the PT server for encryption but will be stored locally in a file named offlineData. Settings must still be edited using the web GUI."
+    },
+    "enableNotifications": {
+      "header": "GUI Notifications",
+      "help": "Set to true to disable the GUI notifications (errors, config changes etc)."
+    },
+    "enableAdvancedNotifications": {
+      "header": "Advanced Notifications",
+      "help": "Set to true and save your settings to enable Advanced Notifications. "
+    },
+    "advancedConfig": {
+      "header": "Adv. Config",
+      "help": "Pro/Advanced Users only: Set to false to disable advanced statistics in the GUI."
+    },
+    "hideBuySell": {
+      "header": "Hide Buy/Sell",
+      "help": "Pro/Advanced Users only: Set to false to disable advanced statistics in the GUI."
+    },
+    "skin": {
+      "header": "Theme",
+      "help": "Choose between three possible skins dark, light and default."
+    },
+    "currency": {
+      "header": "Currency",
+      "help": "Set your desired currency for values in the Web GUI to be displayed in."
+    },
+    "language": {
+      "header": "Language",
+      "help": "Set your desired localization for the Web GUI."
+    },
+    "botToken": {
+      "header": "Bot Token",
+      "placeholder": "Your Bot Token",
+      "help": "Your Bot Token."
+    },
+    "telegramChatId": {
+      "header": "Chat ID",
+      "placeholder": "Your Chat ID",
+      "help": "Your Chat ID."
+    },
+    "PTNSellMessage": {
+      "header": "Sell Message",
+      "help": "#Available variables: dcaCount, instanceName, strategies, quantity, rate, total, profit, dollar, boughtDate, percentage"
+    },
+    "PTNBuyMessage": {
+      "header": "Buy Message",
+      "help": "#Available variables: dcaCount, instanceName, quantity, rate, avgCost, total, percentage"
+    },
+    "PTNErrorMessage": {
+      "header": "Error Message",
+      "help": "#Add error messages that need to be ignored seperated by a comma i.e. SomeKindOfExchangeError,AnotherExchangeError. Can be BinanceWebSocketAdapterKline,APIKEY_INVALID"
+    },
+    "PTNSellMessageEnabled": "Sell Messages",
+    "PTNBuyMessageEnabled": "Buy Messages",
+    "PTNErrorMessageEnabled": "Error Messages",
+    "PTNCommandsMessageEnabled": "Commands",
+    "discordChatId": {
+      "header": "Chat",
+      "placeholder": "Channel Name",
+      "help": "The channel name that the bot will post notifications in."
+    },
+    "newSignal": {
+      "header": "New Signal Notification",
+      "help": "Set to true to enable a notification to be sent when a new signal is received."
+    },
+    "startup": {
+      "header": "Startup Notification",
+      "help": "Set to true to add notifications on startup."
+    },
+    "shutdown": {
+      "header": "Shutdown Notification",
+      "help": "Set to true to add notifications on shutdown. Will not work for unexpected shutdowns."
+    },
+    "newSignalChannel": {
+      "header": "New Signal Notification Channel",
+      "placeholder": "Channel Name",
+      "help": "A separate channel for new SIGNAL notifications to be sent to. If nothing is set Chat from discord instance 1 will be used instead."
+    },
+    "keyStore": {
+      "header": "SSL Key Store",
+      "placeholder": "/etc/letsencrypt/live/yourdomain/keystore.p12",
+      "help": "Add the path to your keystore file."
+    },
+    "keyStorePW": {
+      "header": "SSL Key Store Password",
+      "placeholder": "Your Password",
+      "help": "Insert your Key Store Password."
+    },
+    "keyPW": {
+      "header": "SSL Key Password",
+      "placeholder": "Your Password",
+      "help": "Insert your Key Password."
+    },
+    "keyStoreType": {
+      "header": "SSL Key Store Type",
+      "placeholder": "PKCS12",
+      "help": "Insert Key Store Type."
+    },
+    "keyAlias": {
+      "header": "SSL Key Alias",
+      "placeholder": "Your Alias",
+      "help": "Insert Key Store Alias."
+    },
+    "notificationAlerts": {
+      "success": "Test Notification Sent Successfully",
+      "error": "An error occurred while sending the notification.",
+      "empty": "Please fill out the appropriate fields."
+    },
+    "telegramInstance": "Telegram Instance {{number}}",
+    "discordInstance": "Discord Instance {{number}}",
+    "testSettings": "Test Settings",
+    "setupTelegram": "Set up Telegram Notifications",
+    "setupDiscord": "Set up Discord Notifications",
+    "saveUserSettings": "Save User Settings",
+    "saveServerSettings": "Save Server Settings",
+    "saveNotificationSettings": "Save Notification Settings",
+    "saveSSLSettings": "Save SSL Settings",
+    "saveProviderSettings": "Save Provider Settings",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "settingsSaved": "Settings have been saved.",
+    "settingSaveError": "Something went wrong while saving your settings.",
+    "notChanged": "You have not changed any settings",
+    "reloadOrRefresh": "Your Bot might need a restart/reload after changing settings.",
+    "PTAssistant": {
+      "licenseInfo": "License Information",
+      "licenseType": "License Type",
+      "exchange": "Exchange",
+      "apiKeys": "Api Keys",
+      "extraSlots": "Extra Slots",
+      "configsAllowed": "Allowed Configs",
+      "used": "used",
+      "expirationDate": "Expiration Date",
+      "redeemVoucher": {
+        "header": "Redeem Voucher",
+        "button": "Redeem Voucher",
+        "inputHelp": "Enter a valid Voucher Key.",
+        "selectHelp": "Select the category for your Voucher Key"
+      },
+      "currentApiKey": {
+        "header": "Current Api Keys",
+        "key": "Key",
+        "expiration": "Expiration",
+        "lastActiveTime": "Last Active Time"
+      },
+      "licenseUpgrade": "License Upgrade",
+      "apiSlots": "Api Slots",
+      "config": "Configs",
+      "signal": "Signals",
+      "toastr": {
+        "somethingWrong": "Something went wrong.",
+        "voucherTitle": "Redeem Voucher",
+        "voucherText": "Make sure you have entered the voucher code correctly.",
+        "voucherSuccess": "Voucher has been redeemed",
+        "specifyVoucher": "You have not specified a Vouhcer Code"
+      }
+    },
+    "signalProvider": {
+      "chooseProvider": "Choose your Providers",
+      "selectHelpText": "Select the signal providers you want this bot to accept signals from.\n Leave ALL Disabled to accept signals from ALL your providers.",
+      "selectFromThese": "You can select from the following list of providers",
+      "SGNLErrorText": "You have not yet bought a signal package or redeemed your voucher with the PT Assistant.",
+      "providerList": "Current list of providers",
+      "saveProviderSettings": "Save Signal Provider Settings"
+    }
+  },
+  "closedCandles": "Strategy using Closed Candles",
+  "hotConfig": {
+    "swalTitle": "Save Hot Config Command",
+    "swalText": "Are you sure you want to save the following command: ",
+    "startBalanceError": "Please insert a proper start balance.",
+    "balanceError": "Please insert a proper balance.",
+    "buyTimesError": "Please select a pair and insert the number of DCA levels.",
+    "boughtPriceError": "Please select a pair and insert a proper bought price.",
+    "saveBtn": "Save",
+    "choosePair": "Choose A Pair",
+    "testModeBalance": {
+      "title": "Test Mode Balance",
+      "help": "Set or change the starting Balance for test bots. Decimals higher than or equal to 0."
+    },
+    "setBuyTimes": {
+      "title": "DCA Set Buy Times",
+      "help": "Set the DCA level on a coin. If you want ProfitTrailer to see it has DCA'd 2 times set 2"
+    },
+    "boughtPrice": {
+      "title": "Set Bought Price",
+      "help": "Set the bought price if the bot could not calculate the price correctly. The price you put in here will be set as the current average price of your pair."
+    }
+  },
+  "addRecordModal": {
+    "addNewBuy": "Add New Buy Record",
+    "addNewSale": "Add New Sales Record"
+  },
+  "reserveAmount": {
+    "title": "Reserve an amount of {{pair}}",
+    "text": "Enter an amount you want to reserve",
+    "confirm": "Reserve",
+    "successText": "Reserved"
+  },
+  "releaseAmount": {
+    "title": "Release an amount of {{pair}}",
+    "text": "Enter an amount you want to release",
+    "confirm": "Release",
+    "successText": "Released"
+  },
+  "reversal": {
+    "title": "Cancel Reversal for coin: {{pair}}",
+    "text": "Are you sure you want to cancel the reversal for this coin?",
+    "confirm": "Cancel Reversal",
+    "close": "Close",
+    "success": "Successfully cancelled"
   }
 }
