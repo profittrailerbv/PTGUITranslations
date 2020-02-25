@@ -3,6 +3,12 @@
     "profit": "Profit",
     "trailer": "Trailer"
   },
+
+  "appNotification":{
+    "notifications": "Notification",
+    "confirmText": "OK"
+  },
+
   "dtMsgs": {
     "noRecords": "No records found.",
     "totalRecords": "Total records",
@@ -21,20 +27,20 @@
     "dcaLog": "DCA",
     "pendingLog": "Pending",
     "salesLog": "Sales",
+    "miscCoins": "Misc. Coins",
     "dustLog": "Dust",
+    "reservedLog": "Reserved Coins",
+    "reversalLog": "Reversal Coins",
     "config": "Config",
     "buyLog": "Buy",
     "apiLogs": "Logs",
     "news": "News",
+    "notifications": "Notifications",
     "shorting": "Shorting",
     "proTools": "Pro",
+    "stats": "Stats",
     "activeConfig": "Active Config",
     "otherConfigs": "Other Configs",
-    "miscCoins": "Misc. Coins",
-    "reservedLog": "Reserved Coins",
-    "reversalLog": "Reversal Coins",
-    "notifications": "Notifications",
-    "stats": "Stats",
     "account": "Account",
     "hotconfig": "Hot Config",
     "ptfeeder": "PTFeeder"
@@ -54,36 +60,6 @@
     "default": "DEFAULT",
     "notSaved": "NOT Saved!"
   },
-  "proTools": {
-    "dashboard": "Dashboard",
-    "dcaCalculator": "Calculator"
-  },
-  "dailyProfitTable": {
-    "date": {
-      "colTitle": "Date",
-      "colName": "Date"
-    },
-    "sells": {
-      "colTitle": "Sells",
-      "colName": "Sells"
-    },
-    "boughtCost": {
-      "colTitle": "Bought Cost",
-      "colName": "Bought Cost"
-    },
-    "soldValue": {
-      "colTitle": "Sold Value",
-      "colName": "Sold Value"
-    },
-    "profits": {
-      "colTitle": "Profits",
-      "colName": "Profits"
-    },
-    "profitPerc": {
-      "colTitle": "Profit %",
-      "colName": "Profit %"
-    }
-  },
   "summaryItems": {
     "balance": {
       "title": "Balance",
@@ -94,6 +70,9 @@
     },
     "testNet": {
       "label": "TESTNET"
+    },
+    "marginTrading": {
+      "label": "MARGIN"
     },
     "NotAvailable": {
       "label": "N/A"
@@ -135,25 +114,26 @@
     "imageTitles": {
       "fullScreen": "Fullscreen"
     },
-    "updated": "Updated {{- timeAgo}}",
-    "marginTrading": {
-      "label": "MARGIN"
-    }
+    "updated": "Updated {{- timeAgo}}"
   },
   "settingInfo": {
     "active": "Active",
     "reset": "Reset",
     "uptime": {
       "title": "Uptime of ProfitTrailer",
-      "label": "Uptime: "
+      "label": "Up: "
     },
     "chngePswrd": {
       "label": "Change Passwords",
       "title": "Role should be \"{{ role }}\" to change passwords.",
-      "tabs": {
+      "tabs":{
         "admin": "Admin password",
         "moniter": "Monitor password"
       }
+    },
+    "changeConfig": {
+      "label": "Public Configs",
+      "title": "Role should be \"{{ role }}\" to download configs."
     },
     "noPswrdAndConfig": {
       "title": "Please enable password/config in your application file to enable this function."
@@ -193,19 +173,9 @@
       "ON": "ON",
       "OFF": "OFF"
     },
-    "somo": {
-      "label": "SOMO: ",
-      "title": "Sell Only Mode Override"
-    },
-    "heartbeats": {
-      "label": "Heartbeats"
-    },
-    "settings": {
-      "label": "Settings"
-    },
     "somoOnOff": {
-      "label": "SOMO",
-      "subLabel": "SOMO Inactive/Active",
+      "label": "SOM",
+      "subLabel": "SOM Inactive/Active",
       "optionOne": "Disabled",
       "optionTwo": "Forced ON",
       "optionThree": "Forced OFF"
@@ -224,10 +194,6 @@
     },
     "setup": {
       "label": "Setup"
-    },
-    "changeConfig": {
-      "label": "Public Configs",
-      "title": "Role should be \"{{ role }}\" to download configs."
     }
   },
   "monitoringSection": {
@@ -245,6 +211,9 @@
     },
     "dcaBal": {
       "label": "DCA Balance"
+    },
+    "reversalBal": {
+      "label": "Reversal Balance"
     },
     "coinTopMarket": {
       "title": "CoinGecko Top 5 Coins"
@@ -326,6 +295,10 @@
       "usdFullText": "Estimated USD Value",
       "usdShortText": "Est. USD Value"
     },
+    "profitAT": {
+      "title": "Your all time profit",
+      "mainText": "Profit All Time"
+    },
     "pot": {
       "title": "Pending Order Time",
       "label": "POT:",
@@ -387,9 +360,6 @@
       "svFullText": "Sold Value",
       "svShortText": "SV",
       "label": "SALES LOG"
-    },
-    "reversalBal": {
-      "label": "Reversal Balance"
     }
   },
   "psbSection": {
@@ -453,6 +423,10 @@
       "colName": "BTG%",
       "colTitle": "Buy Strategy Trigger"
     },
+    "liqPrice": {
+      "colName": "Liq. Price",
+      "colTitle": "Liquidation Price"
+    },
     "sellTrigger": {
       "colName": "STG%",
       "colTitle": "Sell Strategy Trigger"
@@ -503,10 +477,6 @@
     },
     "PM": {
       "label": " PM"
-    },
-    "liqPrice": {
-      "colName": "Liq. Price",
-      "colTitle": "Liquid Price"
     },
     "actions": {
       "colName": "Actions"
@@ -606,6 +576,14 @@
       "colName": "Bid Price <br> Bought Price",
       "colTitle": "Bid Price <br> Bought Price"
     },
+    "liqPrice": {
+      "colName": "Liq. Price",
+      "colTitle": "Liquidation Price"
+    },
+    "currPriceBoughtPriceLiqPrice": {
+      "colName": "Bid Price <br> Bought Price <br> Liq. Price",
+      "colTitle": "Bid Price <br> Bought Price <br> Liquidation Price"
+    },
     "boughtrPrice": {
       "colName": "Bought Price",
       "colTitle": "Bought Price"
@@ -639,7 +617,7 @@
       "colTitle": "Bought Cost"
     },
     "boughtCostCurrency": {
-      "colTitle": "Currency Value <br> Bought Cost"
+      "colTitle": "Currency Value {{currency}} <br> Bought Cost {{currency}}"
     },
     "summaryTable": {
       "cv": "CV",
@@ -648,14 +626,6 @@
       "diff": "Difference",
       "bc": "BC",
       "boughtCost": "Bought Cost"
-    },
-    "liqPrice": {
-      "colName": "Liq. Price",
-      "colTitle": "Liquid Price"
-    },
-    "currPriceBoughtPriceLiqPrice": {
-      "colName": "Bid Price <br> Bought Price <br> Liquid Price",
-      "colTitle": "Bid Price <br> Bought Price <br> Liquid Price"
     }
   },
   "dcaLogSection": {
@@ -713,6 +683,10 @@
       "colName": "Bid.Pr<br>Avg.Pr",
       "colTitle": "Bid Price<br>Average Price"
     },
+    "currPriceLiquidPrice": {
+      "colName": "Bid.Pr<br>Avg.Pr<br>Liq.Pr",
+      "colTitle": "Bid Price<br>Average Price<br>Liquidation Price"
+    },
     "profit": {
       "colName": "P%",
       "colTitle": "Profit and Order Book Profit in %"
@@ -740,10 +714,6 @@
       "diff": "Difference",
       "tc": "TC",
       "totalCost": "Total Cost"
-    },
-    "currPriceLiquidPrice": {
-      "colName": "Bid.Pr<br>Avg.Pr<br>Liq.Pr",
-      "colTitle": "Bid Price<br>Average Price<br>Liquid Price"
     }
   },
   "pendingLogSection": {
@@ -767,8 +737,8 @@
       "colTitle": "Bid Price"
     },
     "currPriceTargetPrice": {
-      "colName": "Bid Price<br>Target Price",
-      "colTitle": "Bid Price<br>Target Price"
+      "colName": "Avg. Price<br>Cur. Price<br>Target Price",
+      "colTitle": "Avg. Price<br>Current Price<br>Target Price"
     },
     "profit": {
       "colName": "P%",
@@ -787,8 +757,8 @@
       "colTitle": "Total Amount"
     },
     "currVal": {
-      "colName": "Cur.Val<br>Tar.Val",
-      "colTitle": "Current Value<br>Target Value"
+      "colName": "B. Val<br>Cur. Val<br>Tar. Val",
+      "colTitle": "Bought Value<br>Current Value<br>Target Value"
     },
     "targetVal": {
       "colName": "Target Value",
@@ -869,6 +839,18 @@
     },
     "profitCurrency": {
       "colTitle": "Profit {{currency}}"
+    },
+    "currVal": {
+      "colName": "SSV",
+      "colTitle": "Sell Strategy Value"
+    },
+    "sellVal": {
+      "colName": "SST",
+      "colTitle": "Sell Strategy Trigger"
+    },
+    "sellLimit": {
+      "colName": "SSL",
+      "colTitle": "Sell Strategy Limit"
     },
     "summaryTable": {
       "sv": "SV",
@@ -960,9 +942,10 @@
     "shop": "Shop"
   },
   "constantMsgs": {
-    "somoSuccess": "SOMO value changed successfully",
+    "somoSuccess": "Global SOM value changed successfully",
     "ptMonitor": "ProfitTrailer Monitor",
     "ajaxError": "There was an error while refreshing the data from ProfitTrailer. Please check your connection. If your connection is fine refresh the page and have a pint.",
+    "ajaxErrorBotNotRunning": "It seems your ProfitTrailer Bot is not running.",
     "processingError": "There was an error while processing the data received from ProfitTrailer. Please give ProfitTrailer some love, make a coffee and all will be good soon.",
     "configSuccess": "You have successfully saved the data",
     "configNotSave": "Changes that you made are not saved. Do you still want to leave this page?",
@@ -974,7 +957,6 @@
     "save": " Save Config",
     "noNotifications": "No notifications.",
     "noSignals": "No Subscriptions.",
-    "noHeartbeats": "No heartbeats.",
     "viewAll": "View all",
     "viewLess": "View less",
     "true": "true",
@@ -984,7 +966,7 @@
     "somotrue": "active",
     "somofalse": "inactive",
     "search": "Search",
-    "newButton": "New Config",
+    "newButton": "Copy Config",
     "publishButton": "Publish",
     "backupButton": "Download Config Files",
     "downloadLogs": "Download Logs",
@@ -995,8 +977,7 @@
     "blackwhitelist": "All",
     "manageBlackList": "Blacklist Management",
     "noFeed": "No news.",
-    "loading": "Loading",
-    "ajaxErrorBotNotRunning": "It seems your ProfitTrailer Bot is not running."
+    "loading": "Loading"
   },
   "alertMsgs": {
     "newConfigurationName": "New Configuration Name",
@@ -1060,7 +1041,10 @@
     "somethingWrong": "Something went wrong.",
     "filledProperties": "Please try again and make sure all fields are filled properly.",
     "noneChosen": "You need to choose a type",
-    "insertValue": "YOu need to insert a value"
+    "insertValue": "You need to insert a value",
+    "notAllowed": "You are not allowed to use this command.",
+    "selectOrderType": "Select Order Type",
+    "amountInPercentage": "{{order}} Amount Percentage"
   },
   "currencyNames": {
     "usd": "United States Dollar",
@@ -1273,91 +1257,6 @@
     "strategyDirectionD": "Buy Strategy Direction D",
     "strategyDirectionE": "Buy Strategy Direction E"
   },
-  "proToolsPage": {
-    "TotalCurrentValue": "Total Current Value",
-    "ProfitToday": "Profit Today",
-    "ProfitYesterday": "Profit Yesterday",
-    "ProfitLastSevenDays": "Profit Last 7 Days",
-    "DailyCumulativeProfit": "Daily / Cumulative Profit",
-    "DailyProfits": "Daily Profits",
-    "CumulativeProfits": "Cumulative Profits",
-    "Daily": "Daily",
-    "Cummulative": "Cummulative",
-    "CurrentValueDistribution": "Current Value Distribution",
-    "CurrentValueDistributionChart": {
-      "Pairs": "Pairs",
-      "Pending": "Pending",
-      "DCA": "DCA",
-      "Balance": "Balance"
-    },
-    "Balance": "Balance",
-    "Pairs": "Pairs",
-    "Pending": "Pending",
-    "DCA": "DCA",
-    "DailyProfit": "Daily Profit",
-    "MonthlyProfit": "Monthly Profit",
-    "LastHour": "Last Hour",
-    "CurrentHoldings": "Current Holdings",
-    "MonthlyProfits": "Monthly Profits",
-    "ProfitablePairs": "Profitable Pairs",
-    "Top10Last30": "Top 10 last 30 days",
-    "MostProfitable": "Most Profitable",
-    "LeastProfitable": "Least Profitable",
-    "MostSales": "Most Sales",
-    "CurrentHoldingTable": {
-      "Category": "Category",
-      "Pairs": "Pairs",
-      "Cost": "Cost",
-      "Value": "Value",
-      "Profit": "Profit",
-      "DCA": "DCA",
-      "Pending": "Pending",
-      "Dust": "Dust"
-    },
-    "MonthlyProfitsTable": {
-      "Month": "Month",
-      "Sells": "Sells",
-      "Profit": "Profit",
-      "AvgProfitPercentage": "Avg. Profit %"
-    },
-    "DCACalculator": {
-      "DCATitle": "DCA Calculator",
-      "DCAType": "Choose DCA type",
-      "StartBalance": "Start Balance",
-      "Pairs": "Pairs",
-      "DCALevels": "DCA Levels",
-      "InitialBuy": "Initial Buy",
-      "InitialBuyPercentage": "Initial Buy Percentage",
-      "InitialSwitchValue": "Switch to Value",
-      "InitialSwitchPercentage": "Switch to Percentage",
-      "DCACoins": "Coins",
-      "DCATriggers": "DCA Triggers",
-      "Calculate": "Calculate",
-      "BalanceNeeded": "Balance Needed",
-      "OverUnderBalance": "Over/Under Total Balance",
-      "OverUnderBalancePercentage": "Over/Under Total Balance Percentage",
-      "DCACoinTable": {
-        "DCA": "DCA",
-        "Cost": "Cost",
-        "Trigger": "Trigger",
-        "Coins": "Coins",
-        "TotalCoins": "Total Coins",
-        "TotalCost": "Total Cost"
-      },
-      "DCATables": {
-        "Pair": "Pair",
-        "Pairs": "Pairs",
-        "DCA": "DCA",
-        "TriggerThHeader": "DCA Trigger / Pair",
-        "GrantThHeader": "DCA / Pairs",
-        "Total": "Total"
-      }
-    }
-  },
-  "appNotification": {
-    "notifications": "Notification",
-    "confirmText": "OK"
-  },
   "statsPage": {
     "generalStats": "General Stats",
     "coinSpecific": "Coin Specific",
@@ -1399,7 +1298,10 @@
     "totalBoughtCost": "Total Bought Cost",
     "totalSells": "Total Sells",
     "totalSellValue": "Total Sell Value",
-    "totalProfits": "Total Profits"
+    "totalProfits": "Total Profits",
+    "drawDown": "Draw Down",
+    "selectCoin": "Select a Coin",
+    "bottom": "Bottom"
   },
   "accountPage": {
     "serverSettings": "Server Settings",
@@ -1414,7 +1316,7 @@
     "applicationPort": {
       "header": "Application Port",
       "placeholder": "8081",
-      "help": "The port that is being used by the bot. Change this value to something unique (like 8082, etc) if you want to start other instances of the bot on the same machine."
+      "help": "The port used by the bot. Change this value to something unique (like 8082, etc) if you want to start other instances of the bot on the same machine."
     },
     "siteName": {
       "header": "Site Name",
@@ -1450,16 +1352,19 @@
     "logHistory": {
       "header": "Log History",
       "placeholder": "8",
-      "help": "Set how many days of sell log history to show in the GUI. Once the set number of days passes, older history will be removed from the bot."
+      "help": "Set how many days of sell/buy log history to show in the GUI. Once the set number of days passes, older history will be removed from the bot."
     },
     "runInTestMode": {
       "header": "Run in Test Mode"
     },
     "runOnTestNet": {
-      "header": "Run on BitMEX Test Net"
+      "header": "Run on Test Net"
     },
     "marginTrading": {
       "header": "Use margin account"
+    },
+    "allowSupportAccess": {
+      "header": "Allow Support Access"
     },
     "openBrowser": {
       "header": "Auto open browser"
@@ -1489,6 +1394,9 @@
     "timezone": {
       "header": "Timezone",
       "help": "Set the timezone ID of the location you live. This will take precedence over server.timezone_offset and will automatically handle daylight saving times."
+    },
+    "precision": {
+      "header": "GUI Precision"
     },
     "advancedStats": {
       "header": "Adv. Stats",
@@ -1626,6 +1534,7 @@
     "reloadOrRefresh": "Your Bot might need a restart/reload after changing settings.",
     "PTAssistant": {
       "licenseInfo": "License Information",
+      "license": "License",
       "licenseType": "License Type",
       "exchange": "Exchange",
       "apiKeys": "Api Keys",
@@ -1691,7 +1600,8 @@
   },
   "addRecordModal": {
     "addNewBuy": "Add New Buy Record",
-    "addNewSale": "Add New Sales Record"
+    "addNewSale": "Add New Sales Record",
+    "leverage": "Leverage"
   },
   "reserveAmount": {
     "title": "Reserve an amount of {{pair}}",
@@ -1711,5 +1621,11 @@
     "confirm": "Cancel Reversal",
     "close": "Close",
     "success": "Successfully cancelled"
+  },
+  "deleteEntry": {
+    "title": "Delete Entry",
+    "text": "Are you sure you want to delete this entry?",
+    "confirm": "Delete Entry",
+    "success": "Entry deleted"
   }
 }
