@@ -7,11 +7,11 @@
     "noRecords": "No records found.",
     "totalRecords": "Total records",
     "excel": "Excel",
-    "search": "Search",
+    "search": "П",
     "showEntries": "Show _MENU_ entries",
     "all": "all",
     "previous": "Previous",
-    "next": "Next",
+    "next": "Следующий",
     "filtered": "(filtered from _MAX_ total records)"
   },
   "sidebar": {
