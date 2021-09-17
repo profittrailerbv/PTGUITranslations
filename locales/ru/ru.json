@@ -23,132 +23,132 @@
     "salesLog": "Продажи",
     "dustLog": "Пыль",
     "config": "Конфиг",
-    "buyLog": "Buy",
-    "apiLogs": "Logs",
-    "news": "News",
+    "buyLog": "Куплено",
+    "apiLogs": "Логи",
+    "news": "Новости",
     "shorting": "Shorting",
-    "proTools": "Pro",
-    "activeConfig": "Active Config",
-    "otherConfigs": "Other Configs",
-    "miscCoins": "Misc. Coins",
-    "reservedLog": "Reserved Coins",
-    "reversalLog": "Reversal Coins",
-    "notifications": "Notifications",
+    "proTools": "Про",
+    "activeConfig": "Активный конфиг",
+    "otherConfigs": "Ост. конфиги",
+    "miscCoins": "Misc. Монеты",
+    "reservedLog": "Резерв. Монеты",
+    "reversalLog": "Reversal Монеты",
+    "notifications": "Уведомления",
     "stats": "Stats",
-    "account": "Account",
-    "hotconfig": "Hot Config",
+    "account": "Аккаунт",
+    "hotconfig": "Горячий Крнфиг",
     "ptfeeder": "PTFeeder"
   },
   "news": {
     "postedOn": "Posted on"
   },
   "pageHeadings": {
-    "configuration": "Configuration",
-    "totalLog": "Total Log"
+    "configuration": "Конфигурация",
+    "totalLog": "Всего логов"
   },
   "configOptions": {
-    "pairs": "Pairs",
-    "dca": "DCA",
-    "indicators": "Indicators",
+    "pairs": "Пары",
+    "dca": "ДЦА",
+    "indicators": "Индикаторы",
     "hotConfig": "HotConfig",
-    "default": "DEFAULT",
-    "notSaved": "NOT Saved!"
+    "default": "По умолчанию",
+    "notSaved": "Не сохранено!"
   },
   "proTools": {
-    "dashboard": "Dashboard",
-    "dcaCalculator": "Calculator"
+    "dashboard": "Дашборд",
+    "dcaCalculator": "Калькулятор"
   },
   "dailyProfitTable": {
     "date": {
-      "colTitle": "Date",
-      "colName": "Date"
+      "colTitle": "Дата",
+      "colName": "Дата"
     },
     "sells": {
-      "colTitle": "Sells",
-      "colName": "Sells"
+      "colTitle": "Продажи",
+      "colName": "Продажи"
     },
     "boughtCost": {
-      "colTitle": "Bought Cost",
-      "colName": "Bought Cost"
+      "colTitle": "Цена покупки",
+      "colName": "Цена покупки"
     },
     "soldValue": {
-      "colTitle": "Sold Value",
-      "colName": "Sold Value"
+      "colTitle": "Проданная стоимость",
+      "colName": "Проданная стоимость"
     },
     "profits": {
-      "colTitle": "Profits",
-      "colName": "Profits"
+      "colTitle": "Прибыль",
+      "colName": "Прибыль"
     },
     "profitPerc": {
-      "colTitle": "Profit %",
-      "colName": "Profit %"
+      "colTitle": "Прибыль %",
+      "colName": "Прибыль %"
     }
   },
   "summaryItems": {
     "balance": {
-      "title": "Balance",
-      "label": "BAL"
+      "title": "Баланс",
+      "label": "Бал"
     },
     "testMode": {
-      "label": "TESTMODE"
+      "label": "Тестовый режим"
     },
     "testNet": {
-      "label": "TESTNET"
+      "label": "Тестовая сеть"
     },
     "NotAvailable": {
-      "label": "N/A"
+      "label": "Н/А"
     },
     "price": {
-      "title": "Price",
-      "label": "Price"
+      "title": "Цена",
+      "label": "Цена"
     },
     "tcv": {
-      "title": "Total Current Value",
-      "label": "TCV"
+      "title": "Общая текущая стоимость",
+      "label": "ОТС"
     },
     "sb": {
-      "title": "Start Balance",
-      "label": "SB"
+      "title": "Стартовый балан",
+      "label": "СБ"
     },
     "profit": {
-      "title": "Profit",
-      "label": "P",
-      "fullText": "Profit"
+      "title": "Прибыль",
+      "label": "П",
+      "fullText": "Прибыль"
     },
     "lw": {
-      "title": "Profit Last Week",
-      "label": "LW"
+      "title": "Прибыль за прошлую Неделю",
+      "label": "ПН"
     },
     "yd": {
-      "title": "Profit Yesterday",
-      "label": "YD"
+      "title": "Прибыль за Вчера",
+      "label": "ПВ"
     },
     "td": {
-      "title": "Profit Today",
-      "label": "TD"
+      "title": "Прибыль Сегодня",
+      "label": "ПС"
     },
     "trend": {
-      "title": "Trend",
-      "label": "T",
-      "suffix": " last 24 Hours!"
+      "title": "Тренд",
+      "label": "Т",
+      "suffix": "Последние 24ч!"
     },
     "imageTitles": {
-      "fullScreen": "Fullscreen"
+      "fullScreen": "Полный экран"
     },
-    "updated": "Updated {{- timeAgo}}",
+    "updated": "Обновленно {{- timeAgo}}",
     "marginTrading": {
       "label": "MARGIN"
     }
   },
   "settingInfo": {
     "active": "Active",
-    "reset": "Reset",
+    "reset": "Сброс",
     "uptime": {
-      "title": "Uptime of ProfitTrailer",
-      "label": "Uptime: "
+      "title": "Аптайм ProfitTrailer",
+      "label": "Аптайм: "
     },
     "chngePswrd": {
-      "label": "Change Passwords",
+      "label": "Изменить Пароль",
       "title": "Role should be \"{{ role }}\" to change passwords.",
       "tabs": {
         "admin": "Admin password",
