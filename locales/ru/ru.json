@@ -149,49 +149,49 @@
     },
     "chngePswrd": {
       "label": "Изменить Пароль",
-      "title": "Role should be \"{{ role }}\" to change passwords.",
+      "title": "Роль должна быть \"{{ role }}\" чтобы изменить пароль.",
       "tabs": {
-        "admin": "Admin password",
-        "moniter": "Monitor password"
+        "admin": "Пароль админа",
+        "moniter": "Пароль наблюдателя"
       }
     },
     "noPswrdAndConfig": {
-      "title": "Please enable password/config in your application file to enable this function."
+      "title": "Пожалуйста, включите пароль / конфигурацию в вашем файле приложения, чтобы включить эту функцию."
     },
     "noEnableShutdown": {
-      "title": "Please enable password/shutdown in your application file to enable this function."
+      "title": "Пожалуйста, включите пароль / выключение в вашем файле приложения, чтобы включить эту функцию."
     },
     "incorrectRole": {
-      "title": "Login in as Admin to get access to these buttons."
+      "title": "Войдите в систему как администратор, чтобы получить доступ к этим кнопкам."
     },
     "noPswrd": {
-      "title": "Please enable password in your application file to enable this function."
+      "title": "Пожалуйста, включите пароль в вашем файле приложения, чтобы включить эту функцию."
     },
     "market": {
-      "label": "Market: ",
-      "title": "Your Exchange and Coin"
+      "label": "Рынок: ",
+      "title": "Ваш обмен и Монета"
     },
     "currency": {
-      "title": "Currency"
+      "title": "Валюта"
     },
     "config": {
-      "label": "Config: ",
-      "title": "Can be changed in Application file"
+      "label": "Конфиг: ",
+      "title": "Можно изменить в файле приложения"
     },
     "password": {
-      "label": "Password: ",
-      "title": "Can be changed in Application file"
+      "label": "Пароль: ",
+      "title": "Можно изменить в файле приложения"
     },
     "som": {
-      "label": "SOM: "
+      "label": "СОМ: "
     },
     "somOnOff": {
-      "label": "SOM",
-      "subLabel": "SOM Inactive/Active",
-      "title": "Sell Only Mode",
-      "globalLabel": "Global SOM",
-      "ON": "ON",
-      "OFF": "OFF"
+      "label": "СОМ",
+      "subLabel": "СОМ не Активный/Активный",
+      "title": "Режим только продажи (СОМ)",
+      "globalLabel": "Глобальный СОМ",
+      "ON": "Вкл",
+      "OFF": "Выкл"
     },
     "somo": {
       "label": "SOMO: ",
@@ -204,35 +204,35 @@
       "label": "Settings"
     },
     "somoOnOff": {
-      "label": "SOMO",
-      "subLabel": "SOMO Inactive/Active",
-      "optionOne": "Disabled",
-      "optionTwo": "Forced ON",
-      "optionThree": "Forced OFF"
+      "label": "СОМО",
+      "subLabel": "СОМО не Активный/Активный",
+      "optionOne": "Отключено",
+      "optionTwo": "Принудительно Вкл.",
+      "optionThree": "Принудительно Выкл."
     },
     "time": {
-      "label": "Time: ",
-      "title": "Current Timezone time"
+      "label": "Время: ",
+      "title": "Текущее время часового пояса"
     },
     "utc": {
-      "title": "Exchange Server Time / UTC",
-      "labelFullText": "UTC Time:",
+      "title": "Всемирное координированное время / UTC",
+      "labelFullText": "UTC Время:",
       "labelShortText": "UTC:"
     },
     "logout": {
-      "label": "Logout"
+      "label": "Выйти"
     },
     "setup": {
-      "label": "Setup"
+      "label": "Настроить"
     },
     "changeConfig": {
-      "label": "Public Configs",
-      "title": "Role should be \"{{ role }}\" to download configs."
+      "label": "Публичные конфиги",
+      "title": "Роль должна быть \"{{ role }}\" чтобы скачать конфиги."
     }
   },
   "monitoringSection": {
-    "feed": "News",
-    "signal": "Subscriptions",
+    "feed": "Новости",
+    "signal": "Подписка",
     "topFiveMarkets": {
       "btc": "BTC ",
       "eth": "ETH ",
@@ -241,44 +241,44 @@
       "ltc": "LTC "
     },
     "pairsBal": {
-      "label": "Pairs Balance"
+      "label": "Пары Баланс"
     },
     "dcaBal": {
-      "label": "DCA Balance"
+      "label": "ДЦА Баланс"
     },
     "coinTopMarket": {
-      "title": "CoinGecko Top 5 Coins"
+      "title": "CoinGecko Топ 5 Монет"
     },
     "volume": {
-      "label": "Volume"
+      "label": "Объем"
     },
     "trade": {
-      "label": "Trades"
+      "label": "Сделки"
     },
     "globalMarket": {
-      "totalMarketCap": "Total Market Cap",
-      "total24HrsVol": "Total 24 Hour Volume",
-      "bitcoinMarketCap": "Bitcoin % of Market Cap",
-      "title": "CoinGecko - Total"
+      "totalMarketCap": "Общая рыночная капитализация",
+      "total24HrsVol": "Общий 24ч. Объем",
+      "bitcoinMarketCap": "Bitcoin % рыночной капитализации",
+      "title": "CoinGecko - Всего"
     },
-    "usdFullText": " Estimated Value",
-    "usdShortText": " Est. Value",
-    "gainFullText": "Estimated Gain",
-    "gainShortText": "Est. Gain",
-    "heading": "Monitoring",
+    "usdFullText": "Расчетная стоимость",
+    "usdShortText": "Расч. стоимость",
+    "gainFullText": "Расчетный выигрыш",
+    "gainShortText": "Расч. выигрыш",
+    "heading": "Наблюдение",
     "tcvDust": {
-      "label": "TCV with Dust",
-      "title": "Total Current Value with your Dust"
+      "label": "ОТС с пылью",
+      "title": "Общая текущая стоимость с пылью"
     },
-    "notification": "Notification",
-    "trendContainerFirstPart": "The % trend of 50 top ",
-    "trendContainerSecondPart": "coins from your market the last 24 hours",
-    "trend24H": "Trend 24H",
+    "notification": "Уведомления",
+    "trendContainerFirstPart": "% тренд 50 лучших",
+    "trendContainerSecondPart": "монеты с вашего рынка за последние 24 часа",
+    "trend24H": "Тренд 24ч.",
     "balance": {
-      "title": "Your current Balance not locked in bags",
-      "mainText": "Balance",
-      "usdFullText": "Estimated USD Value",
-      "usdShortText": "Est. USD Value"
+      "title": "Ваш текущий баланс не заблокирован",
+      "mainText": "Баланс",
+      "usdFullText": "Ориентировочная стоимость в USD",
+      "usdShortText": "Ориент. стоимость в USD"
     },
     "tcv": {
       "title": "The current value of your bags",
