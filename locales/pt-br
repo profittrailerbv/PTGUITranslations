@@ -82,19 +82,19 @@ export default {
     copy: 'Copiar',
     nothingNew: 'Nada foi modificado.',
     leavingSure: 'Você realmente quer sair desta página? Você tem alterações sem salvar!',
-    notSaved: 'Nicht gespeichert',
-    noAccessConfig: 'Sie haben keinen Zugriff auf die Konfiguration',
-    publish: 'Aktive Konfiguration veröffentlichen', ive never seen a publish button?
-    invalidProperties: 'Sie haben ungültige Eigenschaften in Ihrer Konfiguration',
-    in: 'In {tab}:'
+    notSaved: 'Não foi salvo',
+    noAccessConfig: 'Você não tem acesso à configuração',
+    publish: 'Publicar configuração ativa'
+    invalidProperties: 'Você tem propriedades inválidas em sua configuração',
+    in: 'Em {tab}:'
   },
   generics: {
     paperShort: '(p)',
-    paper: 'Papier',
-    true: 'Richtig',
-    false: 'Falsch',
-    enabled: 'Aktiviert',
-    disabled: 'Ausgeschaltet',
+    paper: 'Papel',
+    true: 'Verdadeiro',
+    false: 'Falso',
+    enabled: 'Ativado',
+    disabled: 'Desativado',
     noRights: 'Sie haben nicht die Rechte, diesen Knopf zu benutzen', Knopf Sounds Weird i would keep Button here
     viewAll: 'Alle anzeigen',
     showAllNews: 'Alle News anzeigen',
