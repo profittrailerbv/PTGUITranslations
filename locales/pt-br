@@ -160,24 +160,24 @@ export default {
     totalCurrentValue: 'Valor atual total',
     salesDistributionAbbr: 'Abreviaturas: distribuição de vendas',
     salesDistributionAbbrText: 'TP = Take Profit <br> TPS = Take Profit Safety <br> TSL = Trailing Stop Loss <br>M = Manual<br>MP = Max Profit<br>G = Gain',
-    timesSold: 'Times Sold',
-    dcaLevel: 'DCA Level',
-    pairsSold: 'Verkaufte Paare',
-    avgTradeDuration: 'Durchschnittliche Handelsdauer (Stunden) ',
-    avgProfit: 'Durchschnittsgewinne',
-    mostSold: 'Meist verkauft',
-    dSpentVsEarned: 'Täglich: Ausgegeben vs. verdient',
-    mSpentVsEarned: 'Monatlich: Ausgaben vs. Verdient',
-    dBuyVsSales: 'Täglich: Käufe vs Verkäufe',
-    mBuyVsSales: 'Monatlich: Käufe vs Verkäufe',
-    spent: 'Investiert',
-    earned: 'Verdient',
-    buys: 'Käufe',
-    sells: 'Verkäufe',
-    drawDown: 'Draw Down', not sure how to translate that
-    selectACoin: 'Wählen Sie eine Coin',
-    bottom: 'Unten',
-    advancedStatsExplainer: 'Erweiterte Statistikerklärungen',
+    timesSold: 'Vezes vendida',
+    dcaLevel: 'Level DCA',
+    pairsSold: 'Pares vendidos',
+    avgTradeDuration: 'Média de duração do trade:',
+    avgProfit: 'Média de lucro',
+    mostSold: 'Mais vendido',
+    dSpentVsEarned: 'Gasto vs ganho diário',
+    mSpentVsEarned: 'Gasto vs ganho mensal',
+    dBuyVsSales: 'Compra vs vendas diárias',
+    mBuyVsSales: 'Compra vs vendas mensais',
+    spent: 'Investido',
+    earned: 'Obtido',
+    buys: 'Compras',
+    sells: 'Vendas',
+    drawDown: 'Draw Down',
+    selectACoin: 'Escolha uma moeda:',
+    bottom: 'Fundo',
+    advancedStatsExplainer: 'Explicações de status:',
     advancedStatsExplainerText: 'TSL - Trailing Stoploss<br>' +
     'TPS - Take Profit Safety<br>' +
     'SL - Stop Loss<br>' +
@@ -193,10 +193,10 @@ export default {
     'TB - Trailing Buy<br>' +
     'OV - Original Value<br>' +
     'TV - Trailing Value<br>' +
-    'Weitere Informationen finden Sie in unserem <a target="_blank" href="https://wiki.profittrailer.com/en/webinterfaceguide">wiki</a>.',
-    pnl: 'Kumulative PnL',
-    growth: 'Wachstum',
-    reloadData: 'Stats neu laden'
+    'Visite nossa <a target="_blank" href="https://wiki.profittrailer.com/en/webinterfaceguide">wiki</a> para obter mais informações.',
+    pnl: 'L/P Comulativo',
+    growth: 'Crescimento',
+    reloadData: 'Recarregar estatísticas'
   },
   tableColumns: {
     showTradingView: 'TradingView Anzeigen',
