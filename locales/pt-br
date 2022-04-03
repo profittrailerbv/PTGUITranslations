@@ -265,7 +265,7 @@ export default {
     soldDate: 'Data de venda',
     profitCurrency: 'Profit Currency',
     profitPercentage: 'Profit %',
-    soldPrice: 'Sold Price',
+    soldPrice: 'Preço de venda',
     soldProfit: 'Sold Profit',
     soldAmount: 'Sold Amount',
     currentProfit: 'Current Profit',
