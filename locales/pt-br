@@ -286,7 +286,7 @@ export default {
     sell: 'Sell',
     enterPending: 'Enter Pending',
     reserve: 'Reserve',
-    boughtPrice: 'Bought Price',
+    boughtPrice: 'Valor de compra',
     dcaBuyTimes: 'Buy Times',
     cancelPending: 'Cancel Pending',
     release: 'Release',
